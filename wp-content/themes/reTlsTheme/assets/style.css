@@ -12825,9 +12825,9 @@ dd {
 }
 
 @media only screen and (min-width: 1200px) {
-    .top-navigation.fixmenu .menu-section .mainmenutoggle {
+    /* .top-navigation.fixmenu .menu-section .mainmenutoggle {
         top: inherit
-    }
+    } */
 }
 
 .top-navigation.fixmenu .logo-section #branding-text {
@@ -12891,7 +12891,7 @@ dd {
 }
 
 .top-navigation .logo-section #branding img {
-    width: 125px
+    width: 200px
 }
 
 .top-navigation .logo-section #branding-text {
@@ -12903,7 +12903,7 @@ dd {
 }
 
 .top-navigation .logo-section #branding-text img {
-    height: 40px
+    height: 50px
 }
 
 .top-navigation .special-links-section {
@@ -12913,7 +12913,9 @@ dd {
 @media only screen and (min-width: 1200px) {
     .top-navigation .special-links-section {
         display: block;
-        width: calc(100% - 585px)
+        width: calc(100% - 585px);
+        
+        margin-left: 330px;
     }
 }
 
@@ -13860,7 +13862,7 @@ dd {
 
 @media only screen and (min-width: 1200px) {
     .top-navigation .plan-your-gateway-section {
-        width: 260px;
+        width: 70px;
         z-index: 102;
         display: block;
         align-items: center;
