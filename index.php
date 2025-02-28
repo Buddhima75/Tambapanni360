@@ -138,12 +138,9 @@
     <header>
         <div class="top-navigation">
             <div class="logo-section">
-                <a href="https://www.trulysrilanka.com" id="branding" title="logo-black"><img
-                        src="https://djpadb6zmchmi.cloudfront.net/2021/12/logo-black.png" alt="logo-black"
-                        title="logo-black"></a> <a href="https://www.trulysrilanka.com" id="branding-text"
-                    title="truly sri lanka">
-                    <img src="https://djpadb6zmchmi.cloudfront.net/2020/05/truly-sri-lanka.svg" alt="truly sri lanka"
-                        title="truly sri lanka">
+                <a href="" id="branding" title="logo-black"><img src="./images/logo.svg" alt="logo-black"
+                        title="logo-black"></a> <a href="#" id="branding-text" title="truly sri lanka">
+                    <img src="./images/logo.svg" alt="truly sri lanka" title="truly sri lanka">
                 </a>
             </div>
             <div class="special-links-section">
