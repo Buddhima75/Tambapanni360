@@ -1540,12 +1540,11 @@
             <div class="section-home-faq">
                 <div class="section-inner-wrapper">
                     <div class="top">
-                        <div class="image-wrapper lazyBackground"
-                            data-imgsrc="https://djpadb6zmchmi.cloudfront.net/2020/05/faq-1.jpg"></div>
+                        <div class="image-wrapper lazyBackground" data-imgsrc="./images/FAQ.jpg"></div>
                         <div class="content-wrapper">
                             <div class="no-flex">
                                 <div class="section-title-wrapper">
-                                    <div class="line-title"> TRULY </div>
+                                    <div class="line-title"> FAQ </div>
                                     <h2 class="home-section-title">FAQs About Sri Lanka</h2>
                                 </div>
                                 <div class="description-link-wrapper">
@@ -1568,7 +1567,8 @@
                                         <div class="panel-heading" role="tab" id="heading-0">
                                             <a role="button" data-toggle="collapse" href="#collapse-0"
                                                 aria-expanded="true" aria-controls="collapse-0">
-                                                <h6 itemprop="name">When is the best time to visit Sri Lanka?</h6>
+                                                <h6 itemprop="name">What is the local transportation like in Sri Lanka?
+                                                </h6>
                                                 <span class="accordian-icon"> <svg width="15" height="9"
                                                         aria-hidden="true" class="icon-plus">
                                                         <use xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -1584,11 +1584,9 @@
                                             itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"
                                             data-parent="#faq-accordion" role="tabpanel" aria-labelledby="heading-0">
                                             <div class="panel-body" itemprop="text">
-                                                <p>Sri Lanka can even serve as an all-year-round travel destination
-                                                    depending on where you want to visit. October to March is ideal for
-                                                    the western and southern coastlines, March for the hills and April
-                                                    for
-                                                    the north and east.</p>
+                                                <p>Sri Lanka offers various modes of transportation, including tuk-tuks,
+                                                    buses, trains, and private taxis. For a more authentic experience,
+                                                    you can also take a scenic train ride through the hill country.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1598,7 +1596,8 @@
                                         <div class="panel-heading" role="tab" id="heading-1">
                                             <a role="button" data-toggle="collapse" href="#collapse-1"
                                                 aria-expanded="false" aria-controls="collapse-0">
-                                                <h6 itemprop="name">What kind of weather can I expect in Sri Lanka?</h6>
+                                                <h6 itemprop="name">Are there any restrictions on clothing in Sri Lanka?
+                                                </h6>
                                                 <span class="accordian-icon"> <svg width="15" height="9"
                                                         aria-hidden="true" class="icon-plus">
                                                         <use xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -1614,9 +1613,10 @@
                                             itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"
                                             data-parent="#faq-accordion" role="tabpanel" aria-labelledby="heading-1">
                                             <div class="panel-body" itemprop="text">
-                                                <p>The weather is mostly sunny and humid and wonderful for a vacation.
-                                                    Just beware of the south-west monsoon from April to June and the
-                                                    north-east monsoon from November to December.</p>
+                                                <p>While Sri Lanka is generally relaxed about dress code, modest
+                                                    clothing is recommended, especially when visiting temples and
+                                                    religious sites. It’s respectful to cover your shoulders and knees.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -1626,8 +1626,7 @@
                                         <div class="panel-heading" role="tab" id="heading-2">
                                             <a role="button" data-toggle="collapse" href="#collapse-2"
                                                 aria-expanded="false" aria-controls="collapse-0">
-                                                <h6 itemprop="name">Do I need to wear any specific clothing to enter
-                                                    temples and monuments?</h6>
+                                                <h6 itemprop="name">What are some popular festivals in Sri Lanka?</h6>
                                                 <span class="accordian-icon"> <svg width="15" height="9"
                                                         aria-hidden="true" class="icon-plus">
                                                         <use xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -1643,9 +1642,10 @@
                                             itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"
                                             data-parent="#faq-accordion" role="tabpanel" aria-labelledby="heading-2">
                                             <div class="panel-body" itemprop="text">
-                                                <p>The locals are usually dressed in white clothing covering the entire
-                                                    body. Visitors can stick to light colours and modest clothing
-                                                    covering knees and shoulders when entering religious places.</p>
+                                                <p>Some of the most popular festivals include Sinhala and Tamil New Year
+                                                    (April), Vesak (celebrating Buddha’s birth, enlightenment, and
+                                                    death, in May), and the Kandy Esala Perahera (a grand procession in
+                                                    August)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1655,7 +1655,8 @@
                                         <div class="panel-heading" role="tab" id="heading-3">
                                             <a role="button" data-toggle="collapse" href="#collapse-3"
                                                 aria-expanded="false" aria-controls="collapse-0">
-                                                <h6 itemprop="name">What languages are spoken in Sri Lanka?</h6>
+                                                <h6 itemprop="name">Is it easy to get around Sri Lanka as a solo
+                                                    traveler?</h6>
                                                 <span class="accordian-icon"> <svg width="15" height="9"
                                                         aria-hidden="true" class="icon-plus">
                                                         <use xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -1671,8 +1672,12 @@
                                             itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"
                                             data-parent="#faq-accordion" role="tabpanel" aria-labelledby="heading-3">
                                             <div class="panel-body" itemprop="text">
-                                                <p>Sinhala and Tamil are the two commonly used languages in Sri Lanka.
-                                                    However, most locals do understand and speak in English as well.</p>
+                                                <p>Yes, Sri Lanka is very welcoming to solo travelers, and many tourists
+                                                    enjoy traveling around the island alone. However, it’s advisable to
+                                                    take precautions and plan your transportation in advance for added
+                                                    safety.
+
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -1682,7 +1687,8 @@
                                         <div class="panel-heading" role="tab" id="heading-4">
                                             <a role="button" data-toggle="collapse" href="#collapse-4"
                                                 aria-expanded="false" aria-controls="collapse-0">
-                                                <h6 itemprop="name">What is the currency used in Sri Lanka?</h6>
+                                                <h6 itemprop="name">Are there any health precautions I should take
+                                                    before visiting Sri Lanka?</h6>
                                                 <span class="accordian-icon"> <svg width="15" height="9"
                                                         aria-hidden="true" class="icon-plus">
                                                         <use xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -1698,8 +1704,10 @@
                                             itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"
                                             data-parent="#faq-accordion" role="tabpanel" aria-labelledby="heading-4">
                                             <div class="panel-body" itemprop="text">
-                                                <p>The currency used on the island is the Sri Lankan Rupee. Global
-                                                    credit cards can be used for payments in some instances.</p>
+                                                <p>It’s recommended to check with your doctor about any vaccinations you
+                                                    might need, such as hepatitis A, hepatitis B, and typhoid. You
+                                                    should also drink bottled or filtered water to avoid waterborne
+                                                    illnesses.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1709,7 +1717,7 @@
                                         <div class="panel-heading" role="tab" id="heading-5">
                                             <a role="button" data-toggle="collapse" href="#collapse-5"
                                                 aria-expanded="false" aria-controls="collapse-0">
-                                                <h6 itemprop="name">What kind of food can I expect in Sri Lanka?</h6>
+                                                <h6 itemprop="name">Can I go diving in Sri Lanka?</h6>
                                                 <span class="accordian-icon"> <svg width="15" height="9"
                                                         aria-hidden="true" class="icon-plus">
                                                         <use xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -1725,9 +1733,9 @@
                                             itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"
                                             data-parent="#faq-accordion" role="tabpanel" aria-labelledby="heading-5">
                                             <div class="panel-body" itemprop="text">
-                                                <p>The local cuisine is quite spicy. If you aren’t into spicy food
-                                                    though, all hotels and some restaurants serve international cuisine.
-                                                    Fast food is an option too.</p>
+                                                <p>Yes, Sri Lanka offers excellent diving opportunities, with popular
+                                                    dive sites in Hikkaduwa, Mirissa, Trincomalee, and Unawatuna. You
+                                                    can explore coral reefs, shipwrecks, and diverse marine life..</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1736,8 +1744,7 @@
                             <!-- /.faq-listing-wrapper -->
                         </div>
                         <!-- /content-wrapper -->
-                        <div class="image-wrapper lazyBackground"
-                            data-imgsrc="https://djpadb6zmchmi.cloudfront.net/2020/05/faq-2.jpg"> </div>
+                        <div class="image-wrapper lazyBackground" data-imgsrc="./images/36.jpg"> </div>
                     </div>
                     <!-- /.bottom -->
                 </div>
