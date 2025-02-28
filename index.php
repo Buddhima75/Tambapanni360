@@ -687,22 +687,19 @@
                             <div class="home-authentic-experience-slider-wrapper">
                                 <div class="owl-carousel home-authentic-experience-carousel">
                                     <div class="item">
-                                        <div class="img-wrapper"
-                                            style="background-image:url('./images/6.jpg')">
+                                        <div class="img-wrapper" style="background-image:url('./images/6.jpg')">
                                             <img src="https://djpadb6zmchmi.cloudfront.net/2020/05/experience-4.jpg"
                                                 alt="" class="img-fluid">
                                         </div>
                                     </div>
                                     <div class="item">
-                                        <div class="img-wrapper"
-                                            style="background-image:url('./images/7.jpg')">
+                                        <div class="img-wrapper" style="background-image:url('./images/7.jpg')">
                                             <img src="https://djpadb6zmchmi.cloudfront.net/2020/05/experience-1.jpg"
                                                 alt="" class="img-fluid">
                                         </div>
                                     </div>
                                     <div class="item">
-                                        <div class="img-wrapper"
-                                            style="background-image:url('./images/8.jpg')">
+                                        <div class="img-wrapper" style="background-image:url('./images/8.jpg')">
                                             <img src="https://djpadb6zmchmi.cloudfront.net/2020/05/experience-3.jpg"
                                                 alt="" class="img-fluid">
                                         </div>
@@ -814,8 +811,7 @@
                                                                     malls, restaurants and various forms of urban
                                                                     entertainment that awaits the urban explorer. </div>
                                                                 <div class="link-wrapper">
-                                                                    <a href="#"
-                                                                        class="link-type-1"> Find Out More</a>
+                                                                    <a href="#" class="link-type-1"> Find Out More</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -855,8 +851,7 @@
                                                                     beach lovers. Not to mention the clear waters and
                                                                     coral reefs waiting to be explored. </div>
                                                                 <div class="link-wrapper">
-                                                                    <a href="#"
-                                                                        class="link-type-1"> Find Out More</a>
+                                                                    <a href="#" class="link-type-1"> Find Out More</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -896,8 +891,7 @@
                                                                     what the elegant city of Galle is all about. Find
                                                                     out more enticing appeals await you here! </div>
                                                                 <div class="link-wrapper">
-                                                                    <a href="#"
-                                                                        class="link-type-1"> Find Out More</a>
+                                                                    <a href="#" class="link-type-1"> Find Out More</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -938,8 +932,7 @@
                                                                     attractions and the beauty of nature to indulge in.
                                                                 </div>
                                                                 <div class="link-wrapper">
-                                                                    <a href="#"
-                                                                        class="link-type-1"> Find Out More</a>
+                                                                    <a href="#" class="link-type-1"> Find Out More</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1003,7 +996,7 @@
                                                                 <div class="item">
                                                                     <div class="img-wrapper"
                                                                         style="background-image:url('./images/16.jpg')">
-                                                                        
+
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1065,8 +1058,7 @@
                                                                     Even the gentle giants of the ocean seem to love the
                                                                     warm waters of Trincomalee. </div>
                                                                 <div class="link-wrapper">
-                                                                    <a href="#"
-                                                                        class="link-type-1"> Find Out More</a>
+                                                                    <a href="#" class="link-type-1"> Find Out More</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1131,7 +1123,7 @@
                                 data-imgsrc="https://djpadb6zmchmi.cloudfront.net/2020/05/wild-life-new-mob.jpg">
                                 <div class="link-inner">
                                     <div class="line"></div>
-                                    <div class="text">  Province</div>
+                                    <div class="text"> Province</div>
                                 </div>
                             </a>
                         </div>
@@ -1142,7 +1134,7 @@
                                 data-imgsrc="https://djpadb6zmchmi.cloudfront.net/2020/05/mob-heritage-and-culture.jpg">
                                 <div class="link-inner">
                                     <div class="line"></div>
-                                    <div class="text"> Sightseeing and Tours Province   </div>
+                                    <div class="text"> Sightseeing and Tours Province </div>
                                 </div>
                             </a>
                         </div>
@@ -1152,7 +1144,7 @@
                                 data-imgsrc="https://djpadb6zmchmi.cloudfront.net/2020/05/dining-mob.jpg">
                                 <div class="link-inner">
                                     <div class="line"></div>
-                                    <div class="text">  Province  </div>
+                                    <div class="text"> Province </div>
                                 </div>
                             </a>
                         </div>
@@ -1208,8 +1200,7 @@
                             <div class="top">
                                 <div class="item">
                                     <a href="https://www.trulysrilanka.com/things-to-do/beaches.html"
-                                        class="link-item lazyBackground"
-                                        data-imgsrc="./images/27.jpg">
+                                        class="link-item lazyBackground" data-imgsrc="./images/27.jpg">
                                         <div class="link-inner">
                                             <div class="line"></div>
                                             <div class="text">Northern Province</div>
@@ -1222,8 +1213,7 @@
                             <div class="bottom">
                                 <div class="item">
                                     <a href="https://djpadb6zmchmi.cloudfront.net/2020/05/nightlife.jpg"
-                                        class="link-item lazyBackground"
-                                        data-imgsrc="./images/28.webp">
+                                        class="link-item lazyBackground" data-imgsrc="./images/28.webp">
                                         <div class="link-inner">
                                             <div class="line"></div>
                                             <div class="text"> North Western Province </div>
@@ -1239,12 +1229,11 @@
                             <div class="top">
                                 <div class="item">
                                     <a href="https://www.trulysrilanka.com/things-to-do/wildlife-and-safari.html"
-                                        class="link-item lazyBackground"
-                                        data-imgsrc="./images/29.jpg">
+                                        class="link-item lazyBackground" data-imgsrc="./images/33.webp">
                                         <div class="link-inner">
                                             <div class="line"></div>
-                                            <div class="text"> North Central Province </div>
-                                        </div> 
+                                            <div class="text"> Uva Province </div>
+                                        </div>
                                     </a>
                                 </div>
                             </div>
@@ -1252,22 +1241,20 @@
                             <div class="bottom">
                                 <div class="item">
                                     <a href="https://www.trulysrilanka.com/things-to-do/heritage-and-culture.html"
-                                        class="link-item lazyBackground"
-                                        data-imgsrc="https://djpadb6zmchmi.cloudfront.net/2020/05/history-of-srilanka-feat.jpg">
+                                        class="link-item lazyBackground" data-imgsrc="./images/30.jpg">
                                         <div class="link-inner">
                                             <div class="line"></div>
-                                            <div class="text">  Central Province </div>
+                                            <div class="text"> Central Province </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <div class="item">
                                     <a href="https://www.trulysrilanka.com/things-to-do/shopping.html"
-                                        class="link-item lazyBackground"
-                                        data-imgsrc="https://djpadb6zmchmi.cloudfront.net/2020/05/shopping.jpg">
+                                        class="link-item lazyBackground" data-imgsrc="./images/31.jpg">
                                         <div class="link-inner">
                                             <div class="line"></div>
-                                            <div class="text">  Sabaragamuwa Province </div>
+                                            <div class="text"> Sabaragamuwa Province </div>
                                         </div>
                                     </a>
                                 </div>
@@ -1279,21 +1266,19 @@
                             <div class="top">
                                 <div class="item">
                                     <a href="https://www.trulysrilanka.com/things-to-do/sightseeing-and-tours.html"
-                                        class="link-item lazyBackground"
-                                        data-imgsrc="https://djpadb6zmchmi.cloudfront.net/2020/05/sight-see.jpg">
+                                        class="link-item lazyBackground" data-imgsrc="./images/32.jpg">
                                         <div class="link-inner">
                                             <div class="line"></div>
-                                            <div class="text">  Eastern  Province </div>
+                                            <div class="text"> Eastern Province </div>
                                         </div>
                                     </a>
                                 </div>
 
                                 <div class="item">
-                                    <a href="" class="link-item lazyBackground"
-                                        data-imgsrc="https://djpadb6zmchmi.cloudfront.net/2020/05/dining-1.jpg">
+                                    <a href="" class="link-item lazyBackground" data-imgsrc="./images/35.webp">
                                         <div class="link-inner">
                                             <div class="line"></div>
-                                            <div class="text"> Uva Province </div>
+                                            <div class="text"> North Central Province </div>
                                         </div>
                                     </a>
                                 </div>
@@ -1323,11 +1308,10 @@
                             <div class="bottom">
                                 <div class="item">
                                     <a href="https://www.trulysrilanka.com/things-to-do/adventure-and-sports.html"
-                                        class="link-item lazyBackground"
-                                        data-imgsrc="https://djpadb6zmchmi.cloudfront.net/2020/05/adventure-1.jpg">
+                                        class="link-item lazyBackground" data-imgsrc="./images/34.jpg">
                                         <div class="link-inner">
                                             <div class="line"></div>
-                                            <div class="text"> Southern  Province </div>
+                                            <div class="text"> Southern Province </div>
                                         </div>
                                     </a>
                                 </div>
