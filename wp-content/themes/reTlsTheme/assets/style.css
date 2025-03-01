@@ -14410,7 +14410,7 @@ dd {
 
 .banner.homepage .banner-inner-wrapper .left-wrapper .left-image.mobile .mobile-logo a img {
     width: 100%;
-    max-width: 180px
+    max-width: 200px
 }
 
 @media only screen and (min-width: 768px) {
@@ -15796,7 +15796,7 @@ header {
     padding-bottom: 45px;
     position: relative;
     overflow: hidden;
-    background-image: url("images/footer/footer-img.png");
+    background-image: url("../../../../images/footer2.jpg");
     background-position: bottom right;
     background-size: cover
 }
@@ -19925,15 +19925,22 @@ header {
         display: block;
         flex-basis: 375px;
         max-width: 375px;
-        min-height: 280px
+        min-height: 280px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: grayscale(100%); /* Make image black and white */
     }
 }
+
+
 
 @media only screen and (min-width: 1600px) {
     .section-home-faq .section-inner-wrapper .top .image-wrapper {
         flex-basis: 425px;
         max-width: 425px;
         min-height: 315px
+        
     }
 }
 

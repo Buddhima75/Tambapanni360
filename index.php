@@ -147,7 +147,7 @@
                 <ul id="menu-top-menu" class="">
                     <li class="current-menu-item"><a title="Home" href="http://localhost/trulysrilanka/"
                             aria-current="page"><span>Home</span></a></li>
-                    <li><a href="http://localhost/trulysrilanka/destinations.html"><span>Destinations</span></a></li>
+                    <li><a href="./destination.php"><span>Destinations</span></a></li>
                     <li><a href="http://localhost/trulysrilanka/hotels.html"><span>Hotels</span></a></li>
                     <li><a
                             href="http://localhost/trulysrilanka/sri-lanka-villas-and-bungalows.html"><span>Villas</span></a>
@@ -173,27 +173,15 @@
 
                     <div class="main-menu-container clearfix">
                         <div class="table-view">
-                            <div class="plan-your-gateway-section mobi-mega-menu clearfix">
 
-                                <a href="http://localhost/trulysrilanka/vouchers.html" id="plan-your-gateway-btn-mobile"
-                                    class="mobile-gateway-btn plan-your-gateway-btn">
-                                    <span class="text">Book Now Stay Later </span>
-                                    <span class="icon">
-                                        <svg width="20" height="20">
-                                            <use xlink:href="#svg-icon-close"></use>
-                                        </svg>
-                                    </span>
-                                </a>
-                            </div>
 
                             <div class="logo-menu-img">
                                 <!-- logo coulumn start -->
                                 <div class="column-view logo-column">
                                     <div class="column-inner-wrapper">
-                                        <a href="https://www.trulysrilanka.com" class="logo-black-desktop clearfix"
+                                        <a href="http://localhost/trulysrilanka" class="logo-black-desktop clearfix"
                                             title="logo-black">
-                                            <img src="https://djpadb6zmchmi.cloudfront.net/2021/12/logo-black.png"
-                                                alt="logo-black" title="logo-black">
+                                            <img src="./images/The2.png" alt="logo-black" title="logo-black">
                                         </a>
 
 
@@ -296,8 +284,7 @@
                                 <!-- menu-area close-->
 
 
-                                <div class="mega-iamge"
-                                    style="background-image: url(https://djpadb6zmchmi.cloudfront.net/2020/07/mega-menu-960-950.jpg);">
+                                <div class="mega-iamge" style="background-image: url(./images/39.jpg);">
                                 </div>
                             </div>
 
@@ -331,20 +318,20 @@
                                     <div class="owl-carousel feat-destin">
                                         <div class="item">
                                             <a href="http://localhost/trulysrilanka/destinations/colombo.html"
-                                                style="background-image: url(https://djpadb6zmchmi.cloudfront.net/2020/07/colombo-650-250-megamenu.jpg);">
+                                                style="background-image: url(./images/colombo.jpg);">
                                                 <span>Colombo</span>
                                             </a>
                                         </div>
                                         <div class="item">
                                             <a href="http://localhost/trulysrilanka/destinations/galle.html"
-                                                style="background-image: url(https://djpadb6zmchmi.cloudfront.net/2020/07/galle-650-250-megamenu1.jpg);">
-                                                <span>Galle</span>
+                                                style="background-image: url(./images/Kandy.jpg);">
+                                                <span>Kandy</span>
                                             </a>
                                         </div>
                                         <div class="item">
                                             <a href="http://localhost/trulysrilanka/destinations/kandy.html"
-                                                style="background-image: url(https://djpadb6zmchmi.cloudfront.net/2020/07/kandy-650-250-megamenu.jpg);">
-                                                <span>Kandy</span>
+                                                style="background-image: url(./images/4.jpg);">
+                                                <span>Ella</span>
                                             </a>
                                         </div>
                                     </div>
@@ -376,17 +363,14 @@
                 <div class="dynamic-overlay" style="opacity: 0.7;"></div>
                 <!-- this should be change from backend-->
                 <div class="left-image mobile">
-                    <div class="left-img-mobile"
-                        style="background-image:url('https://djpadb6zmchmi.cloudfront.net/2020/05/header-1.jpg')"></div>
-                    <div class="left-img-ipad"
-                        style="background-image:url('https://djpadb6zmchmi.cloudfront.net/2020/05/home-header-ipd-1-new.jpg')">
+                    <div class="left-img-mobile" style="background-image:url('./images/34.jpg')"></div>
+                    <div class="left-img-ipad" style="background-image:url('./images/34.jpg')">
                     </div>
 
                     <div class="mobile-logo">
-                        <a href="https://www.trulysrilanka.com" id="branding-white" title="Truly Sri Lanka"
+                        <a href="http://localhost/trulysrilanka" id="branding-white" title="Truly Sri Lanka"
                             style="display: inline-block; padding: 15px 0;">
-                            <img src="https://djpadb6zmchmi.cloudfront.net/2020/06/tsl-1.svg" alt="Truly Sri Lanka"
-                                title="Truly Sri Lanka">
+                            <img src="./images/logo3.png" alt="Truly Sri Lanka" title="Truly Sri Lanka">
                         </a>
                     </div>
 
@@ -575,20 +559,17 @@
                                 <div class="owl-carousel home-authentic-experience-carousel">
                                     <div class="item">
                                         <div class="img-wrapper" style="background-image:url('./images/6.jpg')">
-                                            <img src="https://djpadb6zmchmi.cloudfront.net/2020/05/experience-4.jpg"
-                                                alt="" class="img-fluid">
+                                            <img src="./images/6.jpg" alt="" class="img-fluid">
                                         </div>
                                     </div>
                                     <div class="item">
                                         <div class="img-wrapper" style="background-image:url('./images/7.jpg')">
-                                            <img src="https://djpadb6zmchmi.cloudfront.net/2020/05/experience-1.jpg"
-                                                alt="" class="img-fluid">
+                                            <img src="./images/7.jpg" alt="" class="img-fluid">
                                         </div>
                                     </div>
                                     <div class="item">
                                         <div class="img-wrapper" style="background-image:url('./images/8.jpg')">
-                                            <img src="https://djpadb6zmchmi.cloudfront.net/2020/05/experience-3.jpg"
-                                                alt="" class="img-fluid">
+                                            <img src="./images/8.jpg" alt="" class="img-fluid">
                                         </div>
                                     </div>
                                 </div>
@@ -995,8 +976,7 @@
                     <div class="grid-inner-wrapper mobile">
                         <div class="item">
                             <a href="http://localhost/trulysrilanka/things-to-do/beaches.html"
-                                class="link-item lazyBackground"
-                                data-imgsrc="https://djpadb6zmchmi.cloudfront.net/2020/05/beach-mob.jpg">
+                                class="link-item lazyBackground" data-imgsrc="./images/27.jpg">
                                 <div class="link-inner">
                                     <div class="line"></div>
                                     <div class="text"> Northern Province </div>
@@ -1006,76 +986,69 @@
 
                         <div class="item">
                             <a href="http://localhost/trulysrilanka/things-to-do/wildlife-and-safari.html"
-                                class="link-item lazyBackground"
-                                data-imgsrc="https://djpadb6zmchmi.cloudfront.net/2020/05/wild-life-new-mob.jpg">
+                                class="link-item lazyBackground" data-imgsrc="./images/28.webp">
                                 <div class="link-inner">
                                     <div class="line"></div>
-                                    <div class="text"> Province</div>
+                                    <div class="text"> North Western Province</div>
                                 </div>
                             </a>
                         </div>
 
                         <div class="item">
                             <a href="http://localhost/trulysrilanka/things-to-do/sightseeing-and-tours.html"
-                                class="link-item lazyBackground"
-                                data-imgsrc="https://djpadb6zmchmi.cloudfront.net/2020/05/mob-heritage-and-culture.jpg">
+                                class="link-item lazyBackground" data-imgsrc="./images/33.webp">
                                 <div class="link-inner">
                                     <div class="line"></div>
-                                    <div class="text"> Sightseeing and Tours Province </div>
+                                    <div class="text"> Uva Province </div>
                                 </div>
                             </a>
                         </div>
 
                         <div class="item">
-                            <a href="" class="link-item lazyBackground"
-                                data-imgsrc="https://djpadb6zmchmi.cloudfront.net/2020/05/dining-mob.jpg">
+                            <a href="" class="link-item lazyBackground" data-imgsrc="./images/30.jpg">
                                 <div class="link-inner">
                                     <div class="line"></div>
-                                    <div class="text"> Province </div>
+                                    <div class="text"> Central Province </div>
                                 </div>
                             </a>
                         </div>
 
                         <div class="item">
                             <a href="http://localhost/trulysrilanka/things-to-do/nightlife.html"
-                                class="link-item lazyBackground"
-                                data-imgsrc="https://djpadb6zmchmi.cloudfront.net/2020/05/mob-sightsee-and-tours.jpg">
+                                class="link-item lazyBackground" data-imgsrc="./images/31.jpg">
                                 <div class="link-inner">
                                     <div class="line"></div>
-                                    <div class="text"> Province </div>
+                                    <div class="text"> Sabaragamuwa Province </div>
                                 </div>
                             </a>
                         </div>
 
                         <div class="item">
                             <a href="http://localhost/trulysrilanka/things-to-do/heritage-and-culture.html"
-                                class="link-item lazyBackground"
-                                data-imgsrc="https://djpadb6zmchmi.cloudfront.net/2020/05/heritage-mob.jpg">
+                                class="link-item lazyBackground" data-imgsrc="./images/32.jpg">
                                 <div class="link-inner">
                                     <div class="line"></div>
-                                    <div class="text"> Province </div>
+                                    <div class="text"> Eastern Province </div>
                                 </div>
                             </a>
                         </div>
 
                         <div class="item">
                             <a href="http://localhost/trulysrilanka/things-to-do/shopping.html"
-                                class="link-item lazyBackground"
-                                data-imgsrc="https://djpadb6zmchmi.cloudfront.net/2020/05/mob-shopping.jpg">
+                                class="link-item lazyBackground" data-imgsrc="./images/35.webp">
                                 <div class="link-inner">
                                     <div class="line"></div>
-                                    <div class="text"> Province </div>
+                                    <div class="text"> North Central Province </div>
                                 </div>
                             </a>
                         </div>
 
                         <div class="item">
                             <a href="http://localhost/trulysrilanka/things-to-do/adventure-and-sports.html"
-                                class="link-item lazyBackground"
-                                data-imgsrc="https://djpadb6zmchmi.cloudfront.net/2020/05/adventure-mob.jpg">
+                                class="link-item lazyBackground" data-imgsrc="./images/34.jpg">
                                 <div class="link-inner">
                                     <div class="line"></div>
-                                    <div class="text"> Province </div>
+                                    <div class="text"> Southern Province </div>
                                 </div>
                             </a>
                         </div>
@@ -1824,9 +1797,9 @@
 
                 <div class="column-1">
                     <div class="logo-section">
-                        <a href="https://www.trulysrilanka.com" title="Truly Sri Lanka">
-                            <img src="https://djpadb6zmchmi.cloudfront.net/2020/06/tsl.svg" alt="Truly Sri Lanka"
-                                title="Truly Sri Lanka" class="img-fluid">
+                        <a href="http://localhost/trulysrilanka" title="Truly Sri Lanka">
+                            <img src="./images/logo2.png" alt="Truly Sri Lanka" title="Truly Sri Lanka"
+                                class="img-fluid">
                         </a>
                     </div>
                 </div>
