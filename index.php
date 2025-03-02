@@ -135,226 +135,10 @@
     <!-- /.component-lines-animation -->
 
 
-    <header>
-        <div class="top-navigation">
-            <div class="logo-section">
-                <a href="" id="branding" title="logo-black"><img src="./images/logo.svg" alt="logo-black"
-                        title="logo-black"></a> <a href="#" id="branding-text" title="truly sri lanka">
-                    <img src="./images/logo.svg" alt="truly sri lanka" title="truly sri lanka">
-                </a>
-            </div>
-            <div class="special-links-section">
-                <ul id="menu-top-menu" class="">
-                    <li class="current-menu-item"><a title="Home" href="http://localhost/trulysrilanka/"
-                            aria-current="page"><span>Home</span></a></li>
-                    <li><a href="./destination.php"><span>Locations</span></a></li>
-                    <li><a href="http://localhost/trulysrilanka/hotels.html"><span>Hotels</span></a></li>
-                    <li><a
-                            href="http://localhost/trulysrilanka/sri-lanka-villas-and-bungalows.html"><span>Villas</span></a>
-                    </li>
-                    <li><a href="http://localhost/trulysrilanka/srilanka-attractions.html"><span>Attractions</span></a>
-                    </li>
-                    <li><a href="http://localhost/trulysrilanka/things-to-do.html"><span>Things to Do</span></a></li>
-                </ul>
-            </div>
-
-
-            <!-- /.menu-section -->
-            <div class="plan-your-gateway-section">
-                <div class="menu-section">
-                    <div class="menu-toggle mainmenutoggle">
-                        <div class="nav-icon">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </div>
-
-                    <div class="main-menu-container clearfix">
-                        <div class="table-view">
-
-
-                            <div class="logo-menu-img">
-                                <!-- logo coulumn start -->
-                                <div class="column-view logo-column">
-                                    <div class="column-inner-wrapper">
-                                        <a href="http://localhost/trulysrilanka" class="logo-black-desktop clearfix"
-                                            title="logo-black">
-                                            <img src="./images/logo2.png" alt="logo-black" title="logo-black">
-                                        </a>
-
-
-                                        <!-- 						<div class="txt-wrapper">
-							"Discover your next adventure on the isle of serendip.."
-						</div>
-					 -->
-
-
-                                        <div class="desktop-menu-social-media-section">
-                                            <ul>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <!-- /.column-inner-wrapper -->
-                                </div>
-                                <!-- logo coulumn end -->
-
-                                <!-- menu-area start-->
-                                <div class="column-view menu-column clearfix">
-                                    <div class="main-menu-social-media-mobile-container">
-                                        <div class="main-menu-mobile-container">
-                                            <ul id="main-menu" class="">
-                                                <li class="current-menu-item"><a href="http://localhost/trulysrilanka/"
-                                                        aria-current="page">Home</a></li>
-                                                <li><a
-                                                        href="http://localhost/trulysrilanka/destinations.html">Locations</a>
-                                                </li>
-                                                <li><a href="http://localhost/trulysrilanka/things-to-do.html">Things to
-                                                        Do</a></li>
-                                                <li><a
-                                                        href="http://localhost/trulysrilanka/srilanka-attractions.html">Attractions</a>
-                                                </li>
-                                                <li><a href="http://localhost/trulysrilanka/hotels.html">Hotels</a></li>
-                                                <li><a href="http://localhost/trulysrilanka/about-sri-lanka.html">About
-                                                        Sri
-                                                        Lanka</a></li>
-                                                <li><a
-                                                        href="http://localhost/trulysrilanka/sri-lanka-villas-and-bungalows.html">Villas</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- /#main-menu -->
-
-                                        <div class="mobile-social-media-section">
-                                            <ul>
-                                                <li>
-                                                    <a href="https://www.facebook.com/VisitTrulySriLanka/"
-                                                        target="_blank">
-                                                        <svg class="icon svg-fb">
-                                                            <use xlink:href="#svg-icon-fb"></use>
-                                                        </svg>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://www.instagram.com/trulysrilanka/" target="_blank">
-                                                        <svg class="icon svg-instagram">
-                                                            <use xlink:href="#svg-icon-instagram"></use>
-                                                        </svg>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://twitter.com/sri_truly" target="_blank">
-                                                        <svg class="icon svg-twitter">
-                                                            <use xlink:href="#svg-icon-twitter"></use>
-                                                        </svg>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <!-- /.main-menu-mobile-container --->
-                                    <div class="main-menu-desktop-container">
-                                        <ul id="main-menu-desktop" class="">
-                                            <li class="current-menu-item"><a href="http://localhost/trulysrilanka/"
-                                                    aria-current="page">Home</a></li>
-                                            <li><a href="http://localhost/trulysrilanka/destinations.html">Locations</a>
-                                            </li>
-                                            <li><a href="http://localhost/trulysrilanka/things-to-do.html">Things to
-                                                    Do</a>
-                                            </li>
-                                            <li><a
-                                                    href="http://localhost/trulysrilanka/srilanka-attractions.html">Attractions</a>
-                                            </li>
-                                            <li><a href="http://localhost/trulysrilanka/hotels.html">Hotels</a></li>
-                                            <li><a
-                                                    href="http://localhost/trulysrilanka/sri-lanka-villas-and-bungalows.html">Villas</a>
-                                            </li>
-                                            <li><a href="http://localhost/trulysrilanka/about-sri-lanka.html">About Sri
-                                                    Lanka</a></li>
-                                            <li><a href="http://localhost/trulysrilanka/contact-us.html">Contact Us</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                </div>
-                                <!-- /.column-view -->
-                                <!-- menu-area close-->
-
-
-                                <div class="mega-iamge" style="background-image: url(./images/39.jpg);">
-                                </div>
-                            </div>
-
-                            <!-- featured-destin start -->
-                            <div class="column-view featured-column">
-                                <div class="featured-items-wrapper">
-                                    <div class="line-title"> Featured destinations </div>
-
-                                    <!-- <ul>
-						
-							<li>
-								<a href="http://localhost/trulysrilanka/destinations/colombo.html">
-									Colombo								</a>
-							</li>
-
-						
-							<li>
-								<a href="http://localhost/trulysrilanka/destinations/galle.html">
-									Galle								</a>
-							</li>
-
-						
-							<li>
-								<a href="http://localhost/trulysrilanka/destinations/kandy.html">
-									Kandy								</a>
-							</li>
-
-											</ul> -->
-
-
-                                    <div class="owl-carousel feat-destin">
-                                        <div class="item">
-                                            <a href="http://localhost/trulysrilanka/destinations/colombo.html"
-                                                style="background-image: url(./images/colombo.jpg);">
-                                                <span>Colombo</span>
-                                            </a>
-                                        </div>
-                                        <div class="item">
-                                            <a href="http://localhost/trulysrilanka/destinations/galle.html"
-                                                style="background-image: url(./images/Kandy.jpg);">
-                                                <span>Kandy</span>
-                                            </a>
-                                        </div>
-                                        <div class="item">
-                                            <a href="http://localhost/trulysrilanka/destinations/kandy.html"
-                                                style="background-image: url(./images/4.jpg);">
-                                                <span>Ella</span>
-                                            </a>
-                                        </div>
-                                    </div>
-
-
-                                </div>
-                            </div>
-                            <!-- /.column-view -->
-                            <!-- featured-destin end -->
-
-                        </div>
-                        <!-- /.table-view -->
-                    </div>
-
-                    <!-- /.main-menu-container -->
-                </div>
-
-                <!-- /.plan-your-gateway-container -->
-            </div>
-            <!-- /.plan-your-gateway-section -->
-        </div>
-
-        <!-- /.top-navigation -->
-    </header>
+    <?php
+        include "./header.php";
+    
+    ?>
     <!-- / header -->
     <div class="banner homepage">
         <div class="banner-inner-wrapper">
@@ -610,7 +394,7 @@
                                 <div class="right-wrapper">
                                     <div class="section-title-wrapper">
                                         <div class="line-title"> TRULY </div>
-                                        <h2 class="home-section-title">Diverse Destinations</h2>
+                                        <h2 class="home-section-title">Diverse Explore</h2>
                                     </div>
                                     <!-- /.title -->
                                     <div class="dropdown-section">
@@ -1790,123 +1574,10 @@
     </main>
     <script type='text/javascript' src='http://localhost/trulysrilanka/wp-includes/js/wp-embed.min.js?ver=5.4.9'>
     </script>
-    <footer class="footer">
-        <div class="container page-container footer-container">
-            <div class="column-wrapper">
-
-                <div class="column-1">
-                    <div class="logo-section">
-                        <a href="http://localhost/trulysrilanka" title="Truly Sri Lanka">
-                            <img src="./images/logo2.png" alt="Truly Sri Lanka" title="Truly Sri Lanka"
-                                class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-                <!-- /.column-1 -->
-
-                <div class="column-3">
-                    <div class="footer-main-links-section">
-                        <ul id="menu-footer-menu" class="footer-main-menu">
-                            <li class="current-menu-item"><a href="http://localhost/trulysrilanka/"
-                                    aria-current="page">Home</a></li>
-                            <li><a href="http://localhost/trulysrilanka/register-your-hotel.html">List Your Property</a>
-                            </li>
-                            <li><a href="http://localhost/trulysrilanka/hotels.html">Hotels</a></li>
-                            <li><a href="http://localhost/trulysrilanka/about-sri-lanka.html">About Sri Lanka</a></li>
-                            <li><a href="http://localhost/trulysrilanka/vouchers.html">Book Now Stay Later</a></li>
-                            <li><a href="http://localhost/trulysrilanka/destinations.html">Destinations</a></li>
-                            <li><a href="http://localhost/trulysrilanka/photo-credits.html">Photo Credits</a></li>
-                            <li><a href="http://localhost/trulysrilanka/srilanka-attractions.html">Attractions</a></li>
-                            <li><a href="http://localhost/trulysrilanka/contact-us.html">Contact Us</a></li>
-                            <li><a href="http://localhost/trulysrilanka/things-to-do.html">Things to Do</a></li>
-                        </ul>
-                    </div>
-
-                    <!-- /.footer-main-links-section -->
-                    <div class="hr"></div>
-                    <nav class="navbar-default">
-                        <div class="footer-links-section">
-                            <ul id="menu-bottom-menu" class="">
-                                <li><a href="http://localhost/trulysrilanka/gdpr-compliance.html">GDPR Compliance</a>
-                                </li>
-                                <li><a href="http://localhost/trulysrilanka/terms-and-conditions.html">Terms and
-                                        Conditions</a></li>
-                                <li><a href="http://localhost/trulysrilanka/privacy-policy.html">Privacy Policy</a></li>
-                                <li><a href="http://localhost/trulysrilanka/site-map.html">Sitemap</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-
-                    <!-- /.footer-links-section -->
-                    <div class="footer-text-section">
-                        Website Designed &amp; Developed by <a href="http://www.emarketingeye.com/" target="_blank"
-                            class="eme-link">eMarketingEye</a>
-                    </div>
-                    <!-- /.footer-text-section -->
-                </div>
-                <!-- /.column-3 -->
-
-                <div class="column-2">
-                    <div class="news-letter-section">
-                        <h3>Newsletter</h3>
-                        <div class="newsletter-desc">
-                            Be the First to Know
-                        </div>
-                        <div class="newsletter-form">
-                            <form method="post" action="http://localhost/trulysrilanka/newsletter.html"
-                                id="ftr_newsltr">
-                                <div class="form-group">
-                                    <input type="email" class="form-control" name="param_email" id="email"
-                                        placeholder="Enter Your Email">
-                                </div>
-                                <button type="submit" class="btn btn-submit" id="validateBtnSubs">
-                                    Submit
-                                    <span class="trangle-right"></span>
-                                </button>
-                            </form>
-                        </div>
-                    </div>
-                    <!-- /.news-letter-section -->
-                    <div class="footer-social-media-section">
-                        <ul>
-                            <li>
-                                <a href="https://www.facebook.com/VisitTrulySriLanka/" target="_blank">
-                                    <svg class="icon svg-fb">
-                                        <use xlink:href="#svg-icon-fb"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/trulysrilanka/" target="_blank">
-                                    <svg class="icon svg-instagram">
-                                        <use xlink:href="#svg-icon-instagram"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/sri_truly" target="_blank">
-                                    <svg class="icon svg-twitter">
-                                        <use xlink:href="#svg-icon-twitter"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <!-- <li>
-							<a href="#">
-								<svg class="icon svg-flickr">
-									<use xlink:href="#svg-icon-flickr"></use>
-								</svg>
-							</a>
-						</li> -->
-                        </ul>
-                    </div>
-                    <!-- /.footer-social-media-section -->
-                </div>
-                <!-- /.column-2 -->
-
-            </div>
-            <!-- /.column-wrapper -->
-        </div>
-    </footer>
+    <?php
+        include "./footer.php";
+    
+    ?>
     <!-- model share -->
 
 
@@ -1928,14 +1599,16 @@
     </script>
     <script defer src="http://localhost/trulysrilanka/wp-content/themes/reTlsTheme/assets/js/owl.carousel.min.js">
     </script>
-    <script defer src="http://localhost/trulysrilanka/wp-content/themes/reTlsTheme/assets/js/bootstrap.min.js"></script>
+    <script defer src="http://localhost/trulysrilanka/wp-content/themes/reTlsTheme/assets/js/bootstrap.min.js">
+    </script>
     <script defer src="http://localhost/trulysrilanka/wp-content/themes/reTlsTheme/assets/js/jquery.fancybox.min.js">
     </script>
     <script defer src="http://localhost/trulysrilanka/wp-content/themes/reTlsTheme/assets/js/jquery.validate.min.js">
     </script>
     <script defer src="http://localhost/trulysrilanka/wp-content/themes/reTlsTheme/assets/js/bootstrap-slider.js">
     </script>
-    <script defer src="http://localhost/trulysrilanka/wp-content/themes/reTlsTheme/assets/js/functions.min.js"></script>
+    <script defer src="http://localhost/trulysrilanka/wp-content/themes/reTlsTheme/assets/js/functions.min.js">
+    </script>
 
     <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
         <symbol id="icon-blogger" viewBox="0 0 14.41 14.16">

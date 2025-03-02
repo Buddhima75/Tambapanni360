@@ -11,12 +11,12 @@
 
 <head>
 
-    <title>Places to Visit in Sri Lanka | Explore | Truly Sri Lanka
+    <title>Visit Colombo Sri Lanka | Travel Guide of Colombo | Truly Sri Lanka
     </title>
-    <meta name="description" content="Our destinations highlight the best places to visit in Sri Lanka, starting from the ancient rock fortress of Sigiriya, all the way to the white sandy beaches of Hikkaduwa.
+    <meta name="description" content="Visit Colombo, Sri Lanka, a city with amazing restaurants, luxury hotels, busy streets and buzzing nightlife at some top Explore that suit any type of traveler.
 " />
-    <meta name="keywords"
-        content="tourist attractions, attractions in sri lanka, places to visit in sri lanka, tourist attractions in sri lanka, tourist destinations sri lanka, sightseeing sri lanka, truly sri lanka, sri lanka" />
+    <meta name="keywords" content="visit colombo sri lanka, top destinations in colombo, nightlife, colombo attractions, things to do, dining, hotels, see, truly sri lanka, colombo, sri lanka
+" />
     <meta property="og:title" content="" />
     <meta property="og:description" content="" />
     <meta property="og:image" content="" />
@@ -58,24 +58,24 @@
 
     .line-title:before {
         content: "";
-        background: #000;
+        background: #009124;
     }
 
     .apply-color,
     .tab-level-nav .shareparent .left-navbar ul .active a {
-        color: #000 !important;
+        color: #009124 !important;
     }
 
     @media only screen and (min-width: 1200px) {
 
         .tab-level-nav .shareparent .left-navbar ul .active a:before,
         .tab-level-nav .shareparent .left-navbar ul .active a:after {
-            background-color: #000 !important;
+            background-color: #009124 !important;
         }
 
         .tab-level-nav .shareparent .left-navbar ul li a:hover,
         .tab-level-nav .shareparent .left-navbar ul li a:focus {
-            color: #000 !important;
+            color: #009124 !important;
         }
     }
     </style>
@@ -100,7 +100,7 @@
     <script type='text/javascript'
         src='http://localhost/trulysrilanka/wp-content/plugins/dynamic-form-builder/inc/js/dfb-frontend.min.js?ver=20141031'>
     </script>
-    <link rel="canonical" href="http://localhost/trulysrilanka/destinations.html" />
+    <link rel="canonical" href="http://localhost/trulysrilanka/destinations/colombo.html" />
     <script type="text/javascript">
     var ajaxurl = "http://localhost/trulysrilanka/wp-admin/admin-ajax.php";
     </script>
@@ -129,430 +129,269 @@
     
     ?>
     <!-- / header -->
-    <div class="banner innerpage">
+    <div class="banner destination">
         <div class="banner-inner-wrapper">
             <div class="left-image-wrapper">
-                <div class="inner-bg-img"
-                    style="background-image:url('http://localhost/trulysrilanka/wp-content/themes/reTlsTheme/assets/images/inner-header-bg.png')">
+                <div class="left-img-desktop" style="background-image:url('')">
                 </div>
             </div>
             <div class="right-image-wrapper">
                 <div class="dynamic-overlay" style="opacity: 0.7;"></div>
                 <div class="right-image mobile">
-                    <div class="right-img-mobile" style="background-image:url('./images/39.jpg')">
+                    <div class="right-img-mobile"
+                        style="background-image:url('https://djpadb6zmchmi.cloudfront.net/2020/05/colombo-mob-header.jpg')">
                     </div>
-                    <div class="right-img-ipad" style="background-image:url('./images/39.jpg')">
+                    <div class="right-img-ipad"
+                        style="background-image:url('https://djpadb6zmchmi.cloudfront.net/2020/05/colombo-ipad-header.jpg')">
                     </div>
 
                     <div class="mobile-logo">
                         <a href="http://localhost/trulysrilanka" id="branding-white" title="Truly Sri Lanka"
                             style="display: inline-block; padding: 15px 0;">
-                            <img src="./images/logo3.png" alt="Truly Sri Lanka" title="Truly Sri Lanka">
+                            <img src="https://djpadb6zmchmi.cloudfront.net/2020/06/tsl-1.svg" alt="Truly Sri Lanka"
+                                title="Truly Sri Lanka">
                         </a>
                     </div>
                 </div>
                 <div class="right-image desktop">
-                    <div class="right-img-desktop" style="background-image:url('./images/40.jpg')">
+                    <div class="right-img-desktop" style="background-image:url('../images/colombo.jpg')">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
     <main>
-        <div class="ts-things-to-do-listing-page destination-listing-page">
+        <div class="ts-overview-page ts-overview-page-desti">
+            <!-- Gallery listing -->
             <div class="container-fluid" data-aos="fade-up">
                 <div class="row">
                     <div class="col-xl-11 mx-auto">
                         <div class="page-inner-wrapper">
                             <div class="component-page-intro intro-type-2">
-
-                                <div class="title-main-wrapper">
-
-                                    <div class="line-title"> Tambapanni360 Places </div>
-                                    <h1 class="main-title">
-                                        Explore </h1>
+                                <div class="title-main-wrapper listings">
+                                    <div class="line-title apply-color"> Explore </div>
+                                    <h1 class="main-title apply-color">
+                                        Colombo </h1>
                                 </div>
+                                <!-- tab level navigaton -->
 
-
-                            </div>
-
-                            <div class="pg-content section-delights section-inviting">
-                                <div class="row">
-                                    <div class="col-xl-8">
-                                        <div class="slider-mb-only">
-                                            <div class="listing-types-2">
-                                                <!-- item -->
-                                                <div class="item">
-                                                    <div class="image"
-                                                        style="background-image: url(./images/colombo.jpg)">
-                                                    </div>
-                                                    <div class="content">
-                                                        <div class="title">Colombo</div>
-                                                        <div class="text">The vibrant metropolis of Colombo, Sri Lanka,
-                                                            is a tropical haven with a rich colonial history. As the
-                                                            country’s premier destination for top attractions, dining,
-                                                            and shopping, Colombo offers some of the best urban
-                                                            experiences for those eager to explore its beauty.</div>
-                                                        <a href="http://localhost/trulysrilanka/location/colombo.php"
-                                                            class="link-type-1" title="Read More">Read More</a>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="image"
-                                                        style="background-image: url(./images/galle.webp)">
-                                                    </div>
-                                                    <div class="content">
-                                                        <div class="title">Galle</div>
-                                                        <div class="text">Galle, home to a UNESCO World Heritage Site,
-                                                            is a must-visit destination in Sri Lanka. This charming
-                                                            coastal town boasts a variety of fascinating attractions and
-                                                            experiences. Make sure to explore its rich history and
-                                                            scenic beauty on your next vacation
-                                                        </div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/galle.html"
-                                                            class="link-type-1" title="Read More">Read More</a>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="image"
-                                                        style="background-image: url(./images/hikkaduwa.jpg)">
-                                                    </div>
-                                                    <div class="content">
-                                                        <div class="title">Hikkaduwa</div>
-                                                        <div class="text">Hikkaduwa, located on Sri Lanka’s southwestern
-                                                            coast, is a top tourist destination known for its stunning
-                                                            beaches, vibrant nightlife, and exciting water activities.
-                                                            Whether you're looking for adventure, relaxation, or
-                                                            cultural experiences, Hikkaduwa has something for everyone.
-                                                        </div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/hikkaduwa.html"
-                                                            class="link-type-1" title="Read More">Read More</a>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="image"
-                                                        style="background-image: url(./images/kandy.jpg)">
-                                                    </div>
-                                                    <div class="content">
-                                                        <div class="title">Kandy</div>
-                                                        <div class="text">Kandy, located in the central hills of Sri
-                                                            Lanka, is a UNESCO World Heritage City known for its rich
-                                                            history, cultural significance, and stunning natural beauty.
-                                                            As the last capital of the ancient Sinhalese kings, Kandy is
-                                                            home to sacred temples, lush landscapes, and vibrant
-                                                            festivals</div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/kandy.html"
-                                                            class="link-type-1" title="Read More">Read More</a>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="image"
-                                                        style="background-image: url(./images/unawatuna.jpg)">
-                                                    </div>
-                                                    <div class="content">
-                                                        <div class="title">Unawatuna</div>
-                                                        <div class="text">Unawatuna, located on Sri Lanka’s southern
-                                                            coast, is a stunning beach destination known for its golden
-                                                            sandy shores, turquoise waters, and laid-back atmosphere. It
-                                                            is a favorite among travelers looking for relaxation,
-                                                            adventure, and vibrant beachside experiences.</div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/unawatuna.html"
-                                                            class="link-type-1" title="Read More">Read More</a>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="image"
-                                                        style="background-image: url(./images/Tangalle.jpg)">
-                                                    </div>
-                                                    <div class="content">
-                                                        <div class="title">Tangalle</div>
-                                                        <div class="text">Located approximately 200 kilometers from
-                                                            Colombo, Tangalle is a picturesque coastal getaway on Sri
-                                                            Lanka’s southern shore. Known for its pristine beaches and
-                                                            tranquil atmosphere, this charming destination perfectly
-                                                            embodies the essence of a tropical retreat. Whether you're
-                                                            looking to explore the local culture or simply relax under
-                                                            the warm sun, Tangalle offers the ideal balance of peaceful
-                                                            relaxation and cultural discovery.</div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/tangalle.html"
-                                                            class="link-type-1" title="Read More">Read More</a>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="image"
-                                                        style="background-image: url(./images/Polonnaruwa.jpg)">
-                                                    </div>
-                                                    <div class="content">
-                                                        <div class="title">Polonnaruwa</div>
-                                                        <div class="text">Polonnaruwa, a UNESCO World Heritage Site, is
-                                                            one of Sri Lanka’s most significant ancient cities. Located
-                                                            in the north-central part of the island, this historical
-                                                            town is renowned for its well-preserved ruins, ancient
-                                                            temples, and fascinating monuments that tell the story of
-                                                            the island's rich cultural heritage.</div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/polonnaruwa.html"
-                                                            class="link-type-1" title="Read More">Read More</a>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="image"
-                                                        style="background-image: url(./images/Arugam\ Bay.jpg)">
-                                                    </div>
-                                                    <div class="content">
-                                                        <div class="title">Arugam Bay</div>
-                                                        <div class="text">Arugam Bay, located on Sri Lanka’s
-                                                            southeastern coast, is one of the island’s most famous and
-                                                            picturesque beach destinations. Known for its laid-back vibe
-                                                            and excellent surf breaks, Arugam Bay has become a hotspot
-                                                            for travelers seeking adventure, relaxation, and a taste of
-                                                            Sri Lankan coastal life</div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/arugam-bay.html"
-                                                            class="link-type-1" title="Read More">Read More</a>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="image"
-                                                        style="background-image: url(./images/trincomalee.webp">
-                                                    </div>
-                                                    <div class=" content">
-                                                        <div class="title">Trincomalee</div>
-                                                        <div class="text">Trincomalee, located on the northeast coast of
-                                                            Sri Lanka, is a stunning and historically rich city known
-                                                            for its beautiful beaches, natural harbors, and cultural
-                                                            landmarks. With its pristine coastline, lush landscapes, and
-                                                            fascinating history, Trincomalee offers a unique blend of
-                                                            relaxation, adventure, and cultural exploration</div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/trincomalee.html"
-                                                            class="link-type-1" title="Read More">Read More</a>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="image"
-                                                        style="background-image: url(./images/NuwaraEliya.webp)">
-                                                    </div>
-                                                    <div class="content">
-                                                        <div class="title">Nuwara Eliya</div>
-                                                        <div class="text">Nuwara Eliya, located in the central highlands
-                                                            of Sri Lanka, is a charming hill station known for its cool
-                                                            climate, scenic landscapes, and colonial architecture. Often
-                                                            referred to as "Little England," it offers visitors a
-                                                            refreshing escape with lush tea plantations, vibrant
-                                                            gardens, and beautiful waterfalls. This picturesque town is
-                                                            a perfect blend of nature, history, and relaxation</div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/nuwara-eliya.html"
-                                                            class="link-type-1" title="Read More">Read More</a>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="image" style="background-image: url(./images/ella.jpg)">
-                                                    </div>
-                                                    <div class="content">
-                                                        <div class="title">Ella</div>
-                                                        <div class="text">Ella, located in the southern part of Sri
-                                                            Lanka's central highlands, is a small town renowned for its
-                                                            breathtaking landscapes, tea plantations, waterfalls, and
-                                                            hiking trails. This picturesque destination offers a perfect
-                                                            blend of adventure and relaxation, making it a must-visit
-                                                            for nature lovers and outdoor enthusiasts.</div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/ella.html"
-                                                            class="link-type-1" title="Read More">Read More</a>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="image" style="background-image: url(./images/34.jpg)">
-                                                    </div>
-                                                    <div class="content">
-                                                        <div class="title">Mirissa</div>
-                                                        <div class="text">Mirissa, located on Sri Lanka’s southern
-                                                            coastline, is a small yet vibrant town known for its
-                                                            pristine beaches, crystal-clear waters, and vibrant
-                                                            nightlife. It’s a popular destination for beach lovers,
-                                                            water sports enthusiasts, and those seeking a peaceful yet
-                                                            lively coastal experience. With its relaxed atmosphere and
-                                                            stunning natural beauty, Mirissa has become one of the most
-                                                            sought-after beach destinations in Sri Lanka.
-                                                        </div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/mirissa.html"
-                                                            class="link-type-1" title="Read More">Read More</a>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="image"
-                                                        style="background-image: url(./images/pasikuda.webp)">
-                                                    </div>
-                                                    <div class="content">
-                                                        <div class="title">Pasikuda</div>
-                                                        <div class="text">Pasikuda, located on Sri Lanka’s eastern
-                                                            coastline, is a serene beach town known for its calm, clear
-                                                            waters and long stretches of golden sand. With its tranquil
-                                                            atmosphere and beautiful coastal surroundings, Pasikuda is
-                                                            an ideal destination for those seeking a peaceful beach
-                                                            getaway. This idyllic location offers a mix of relaxation,
-                                                            water activities, and scenic beauty, making it one of Sri
-                                                            Lanka's hidden gems.
-                                                        </div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/pasikudah.html"
-                                                            class="link-type-1" title="Read More">Read More</a>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="image"
-                                                        style="background-image: url(./images/Negombo.jpg)">
-                                                    </div>
-                                                    <div class="content">
-                                                        <div class="title">Negombo</div>
-                                                        <div class="text">Negombo, located just a short drive north of
-                                                            Colombo, is a vibrant beach town known for its lively
-                                                            atmosphere, beautiful beaches, and rich history. With its
-                                                            colonial heritage, bustling fish market, and proximity to
-                                                            the airport, Negombo is a convenient and popular destination
-                                                            for both travelers starting or ending their Sri Lanka
-                                                            journey, as well as those seeking a relaxing beach escape.
-                                                        </div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/negombo.html"
-                                                            class="link-type-1" title="Read More">Read More</a>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="image" style="background-image: url(./images/7.jpg)">
-                                                    </div>
-                                                    <div class="content">
-                                                        <div class="title">Yala</div>
-                                                        <div class="text">Yala, located on the southeastern coast of Sri
-                                                            Lanka, is one of the country’s most famous national parks
-                                                            and a top destination for wildlife enthusiasts. Known for
-                                                            its diverse ecosystems, rich biodiversity, and scenic
-                                                            beauty, Yala is a haven for nature lovers and adventure
-                                                            seekers. The park is home to a wide variety of wildlife,
-                                                            including the elusive Sri Lankan leopard, elephants, and
-                                                            numerous bird species
-                                                        </div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/yala.html"
-                                                            class="link-type-1" title="Read More">Read More</a>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="image"
-                                                        style="background-image: url(./images/Jaffna.jpg)">
-
-                                                    </div>
-                                                    <div class="content">
-                                                        <div class="title">Jaffna</div>
-                                                        <div class="text">Jaffna, located in the northernmost part of
-                                                            Sri Lanka, is a region rich in cultural heritage, historical
-                                                            significance, and natural beauty. Known for its distinct
-                                                            Tamil culture, vibrant temples, and scenic landscapes,
-                                                            Jaffna offers travelers a unique experience that combines
-                                                            history, spirituality, and the warmth of northern Sri Lankan
-                                                            hospitality.</div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/jaffna.html"
-                                                            class="link-type-1" title="Read More">Read More</a>
-                                                    </div>
-                                                </div>
+                                <div class="tab-level-nav listings">
+                                    <div class="shareparent clearfix">
+                                        <div class="menu-toggle">
+                                            <div class="hamburger">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </div>
+                                            <div class="cross">
+                                                <span></span>
+                                                <span></span>
                                             </div>
                                         </div>
+                                        <div class="leftnav-title">
+                                            Overview
+                                        </div>
+
                                     </div>
-                                    <div class="col-xl-4">
-                                        <!-- slider  -->
-                                        <div class="slider-mb-only">
-                                            <div class="listing-types">
-                                                <div class="item">
-                                                    <a href="http://localhost/trulysrilanka/destinations/anuradhapura.html"
-                                                        class="item-inner">
-                                                        <div class="image">
-                                                            <img src="./images/12.webp" alt="" class="img-fluid">
-                                                        </div>
-                                                        <div class="content">
-                                                            <!-- 65 max character -->
-                                                            <div class="title">Anuradhapura</div>
-                                                            <!-- 70 max character  -->
-                                                            <div class="text">Anuradhapura, one of Sri Lanka's ancient
-                                                                capitals, is a UNESCO World Heritage site that offers a
-                                                                rich tapestry of history, culture, and spiritual
-                                                                significance. Located in the North Central Province,
-                                                                Anuradhapura was the center of Sri Lankan civilization
-                                                                for over a millennium and is home to some of the
-                                                                country’s most sacred and well-preserved religious
-                                                                sites. The city's ancient ruins, towering stupas, and
-                                                                serene monasteries make it a must-visit destination for
-                                                                history buffs, spiritual seekers, and culture
-                                                                enthusiasts.</div>
-                                                            <a href="http://localhost/trulysrilanka/destinations/anuradhapura.html"
-                                                                class="link-type-1" title="Read More">Find out
-                                                                More</a>
-                                                        </div>
-                                                    </a><!-- /.item-inner -->
-                                                </div>
-                                                <div class="item">
-                                                    <a href="http://localhost/trulysrilanka/destinations/sigiriya.html"
-                                                        class="item-inner">
-                                                        <div class="image">
-                                                            <img src="./images/3.jpg" alt="" class="img-fluid">
-                                                        </div>
-                                                        <div class="content">
-                                                            <!-- 65 max character -->
-                                                            <div class="title">Sigiriya</div>
-                                                            <!-- 70 max character  -->
-                                                            <div class="text">Sigiriya, also known as the "Lion’s Rock,"
-                                                                is one of Sri Lanka’s most iconic landmarks and a UNESCO
-                                                                World Heritage site. Located in the central part of the
-                                                                island, Sigiriya is a stunning ancient rock fortress
-                                                                that rises 200 meters above the surrounding jungle. With
-                                                                its rich history, breathtaking views, and impressive
-                                                                architecture, Sigiriya is a must-visit destination for
-                                                                travelers seeking both adventure and cultural immersion.
-                                                            </div>
-                                                            <a href="http://localhost/trulysrilanka/destinations/sigiriya.html"
-                                                                class="link-type-1" title="Read More">Find out
-                                                                More</a>
-                                                        </div>
-                                                    </a><!-- /.item-inner -->
-                                                </div>
-                                                <div class="item">
-                                                    <a href="http://localhost/trulysrilanka/destinations/bentota.html"
-                                                        class="item-inner">
-                                                        <div class="image">
-                                                            <img src="./images/bentota.jpg" alt="" class="img-fluid">
-                                                        </div>
-                                                        <div class="content">
-                                                            <!-- 65 max character -->
-                                                            <div class="title">Bentota</div>
-                                                            <!-- 70 max character  -->
-                                                            <div class="text">Bentota, located on the southwestern coast
-                                                                of Sri Lanka, is a stunning beach destination known for
-                                                                its golden sand beaches, crystal-clear waters, and
-                                                                vibrant water sports activities. This charming coastal
-                                                                town offers a blend of relaxation, adventure, and
-                                                                natural beauty, making it one of Sri Lanka’s most
-                                                                popular tourist spots. With its serene atmosphere,
-                                                                luxurious resorts, and rich cultural attractions,
-                                                                Bentota is perfect for a beach getaway
-                                                            </div>
-                                                            <a href="http://localhost/trulysrilanka/destinations/bentota.html"
-                                                                class="link-type-1" title="Read More">Find out
-                                                                More</a>
-                                                        </div>
-                                                    </a><!-- /.item-inner -->
-                                                </div>
+                                </div>
+                                <div class="description desc-large" style=" text-align: left; ">
+                                    <p>The vibrant metropolis of Colombo, Sri Lanka,
+                                        is a tropical haven with a rich colonial history. As the
+                                        country’s premier destination for top attractions, dining,
+                                        and shopping, Colombo offers some of the best urban
+                                        experiences for those eager to explore its beauty.</p>
+                                </div>
+                            </div><!-- /.page-intro intro-type-1 -->
+
+
+
+                            <!-- Overview -->
+                            <div class="section-overview">
+                                <!-- left side content -->
+                                <div class="left-content">
+                                    <div class="title">Overview</div>
+                                    <!-- content -->
+                                    <div class="cont">
+                                        <p>Colombo, situated on Sri Lanka's west coast just south of the Kelani River,
+                                            serves as the nation's executive and judicial capital.
+
+                                            Adjacent to Sri Jayewardenepura Kotte—the legislative capital—Colombo is the
+                                            country's largest city and its commercial hub, boasting a population of
+                                            approximately 555,031 residents. </p>
+                                        <p>Historically, Colombo's strategic location along ancient East-West sea trade
+                                            routes has established it as a significant port city for over two millennia.
+                                            The city features a natural harbor that has attracted traders from diverse
+                                            regions, including India, Greece, Persia, China, and Rome.
+
+
+                                            Today, Colombo is a vibrant metropolis reflecting a dynamic multicultural
+                                            spirit. Its landscape is characterized by a mix of colonial-era buildings
+                                            and modern high-rises, interwoven with canals and lakes such as the
+                                            prominent Beira Lake.
+                                        </p>
+                                    </div>
+                                    <div class="slider">
+                                        <div class="owl-overview owl-carousel">
+                                            <div class="item">
+                                                <img class="img-fluid" src="../images/41.jpg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img class="img-fluid" src="../images/42.jpg" alt="">
+                                            </div>
+                                            <div class="item">
+                                                <img class="img-fluid" src="../images/43.jpg" alt="">
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- right side map -->
+                                <div class="right-map">
+                                    <img class="img-fluid" src="../images/colombomap.png" alt="">
+                                </div>
                             </div>
+
+
+
+                            <!-- Attractions -->
+
+
+                            <!-- Things to do -->
+                            <div class="section-attractions things-to-do">
+                                <div class="section-intro">
+                                    <div class="title">Things to Do</div>
+                                    <div class="text">If you're wondering how to spend your time in Colombo, worry no
+                                        more! You’ll find plenty of shopping opportunities, fascinating places to
+                                        explore, and the chance to take a leisurely stroll along the beach or simply
+                                        relax in the comfort of your accommodation. The choice is yours, but here’s what
+                                        most travelers eagerly anticipate.</div>
+
+                                </div>
+
+                                <!-- slider  -->
+                                <div class="slider-mb-only">
+                                    <div class="owl-carousel owl-mobile-only section-listing-type-4">
+                                        <!-- item -->
+                                        <!-- max item 6 -->
+                                        <a href="http://localhost/trulysrilanka/thingstodo/pay-a-visit-to-the-pettah-market-for-locally-grown-products.html"
+                                            class="item">
+                                            <div class="image"
+                                                style="background-image: url('https://djpadb6zmchmi.cloudfront.net/2020/05/visit-pettah-market-feat.jpg')">
+                                            </div>
+                                            <!-- content -->
+                                            <div class="content">
+                                                <div class="title">Gangaramaya (Vihara) Buddhist Temple</div>
+                                            </div>
+                                        </a>
+                                        <a href="http://localhost/trulysrilanka/thingstodo/best-of-night-life-in-colombo.html"
+                                            class="item">
+                                            <div class="image"
+                                                style="background-image: url('https://djpadb6zmchmi.cloudfront.net/2020/04/night-life-colombo-feat.jpg')">
+                                            </div>
+                                            <!-- content -->
+                                            <div class="content">
+                                                <div class="title">National Museum of Colombo</div>
+                                            </div>
+                                        </a>
+                                        <a href="http://localhost/trulysrilanka/thingstodo/hop-on-to-the-colombo-city-tour-for-an-exciting-open-deck-city-sightseeing-experience.html"
+                                            class="item">
+                                            <div class="image"
+                                                style="background-image: url('https://djpadb6zmchmi.cloudfront.net/2020/05/sight-see-feat.jpg')">
+                                            </div>
+                                            <!-- content -->
+                                            <div class="content">
+                                                <div class="title">Galle Face Green</div>
+                                            </div>
+                                        </a>
+                                        <a href="http://localhost/trulysrilanka/thingstodo/experience-colombo-like-a-local.html"
+                                            class="item">
+                                            <div class="image"
+                                                style="background-image: url('https://djpadb6zmchmi.cloudfront.net/2020/06/Experience-Colombo-like-a-local-800-800.jpg')">
+                                            </div>
+                                            <!-- content -->
+                                            <div class="content">
+                                                <div class="title">Viharamahadevi Park</div>
+                                            </div>
+                                        </a>
+                                        <a href="http://localhost/trulysrilanka/thingstodo/take-a-tuk-tuk-ride-tour-in-colombo.html"
+                                            class="item">
+                                            <div class="image"
+                                                style="background-image: url('https://djpadb6zmchmi.cloudfront.net/2020/06/Take-a-Tuk-tuk-ride-tour-in-Colombo-800-800.jpg')">
+                                            </div>
+                                            <!-- content -->
+                                            <div class="content">
+                                                <div class="title">Mount Lavinia Beach</div>
+                                            </div>
+                                        </a>
+                                        <a href="http://localhost/trulysrilanka/thingstodo/explore-the-colonial-buildings-in-fort.html"
+                                            class="item">
+                                            <div class="image"
+                                                style="background-image: url('https://djpadb6zmchmi.cloudfront.net/2020/05/Explore-the-colonial-buildings-in-Fort-800-800.jpg')">
+                                            </div>
+
+                                            <div class="content">
+                                                <div class="title">Independence Memorial Hall</div>
+                                            </div>
+                                        </a>
+                                        <div class="item">
+                                            <div class="image"
+                                                style="background-image: url('https://djpadb6zmchmi.cloudfront.net/2020/05/Explore-the-colonial-buildings-in-Fort-800-800.jpg')">
+                                            </div>
+
+                                            <div class="content">
+                                                <div class="title">The Lotus Towe</div>
+                                                <div class="text"> Sri Lanka’s tallest structure offering a panoramic
+                                                    view of Colombo, with a revolving restaurant.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="image"
+                                                style="background-image: url('https://djpadb6zmchmi.cloudfront.net/2020/05/Explore-the-colonial-buildings-in-Fort-800-800.jpg')">
+                                            </div>
+
+                                            <div class="content">
+                                                <div class="title">The Kingsbury Sky Lounge</div>
+                                                <div class="text"> A rooftop bar with stunning views of the Indian
+                                                    Ocean.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="image"
+                                                style="background-image: url('https://djpadb6zmchmi.cloudfront.net/2020/05/Explore-the-colonial-buildings-in-Fort-800-800.jpg')">
+                                            </div>
+
+                                            <div class="content">
+                                                <div class="title">Pettah Market</div>
+                                                <div class="text"> A bustling market where you can shop for souvenirs,
+                                                    spices, and street food.
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!-- view all btn -->
+
+                                </div>
+                            </div>
+
+
+                            <!-- Culinary Delights -->
 
 
 
                         </div><!-- /.page-inner-wrapper -->
                     </div><!-- /.col -->
                 </div><!-- /.row -->
-            </div><!-- /.container-fluid -->
-        </div><!-- /.ts-things-to-do-listing-page-->
+            </div>
+        </div>
+
     </main>
+
     <script type='text/javascript' src='http://localhost/trulysrilanka/wp-includes/js/wp-embed.min.js?ver=5.4.9'>
     </script>
     <?php
-        include "./footer.php";
+        include "../footer.php";
     
     ?>
     <!-- model share -->
