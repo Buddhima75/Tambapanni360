@@ -333,8 +333,7 @@
                                             </div>
                                         </a>
                                         <div class="item">
-                                            <div class="image"
-                                                style="background-image: url('https://djpadb6zmchmi.cloudfront.net/2020/05/Explore-the-colonial-buildings-in-Fort-800-800.jpg')">
+                                            <div class="image" style="background-image: url('../images/43.jpg')">
                                             </div>
 
                                             <div class="content">
@@ -345,8 +344,7 @@
                                             </div>
                                         </div>
                                         <div class="item">
-                                            <div class="image"
-                                                style="background-image: url('https://djpadb6zmchmi.cloudfront.net/2020/05/Explore-the-colonial-buildings-in-Fort-800-800.jpg')">
+                                            <div class="image" style="background-image: url('../images/45.jpg')">
                                             </div>
 
                                             <div class="content">
@@ -357,8 +355,7 @@
                                             </div>
                                         </div>
                                         <div class="item">
-                                            <div class="image"
-                                                style="background-image: url('https://djpadb6zmchmi.cloudfront.net/2020/05/Explore-the-colonial-buildings-in-Fort-800-800.jpg')">
+                                            <div class="image" style="background-image: url('../images/44.jpg')">
                                             </div>
 
                                             <div class="content">
