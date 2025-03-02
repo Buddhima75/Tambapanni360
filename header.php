@@ -1,21 +1,16 @@
 <header>
     <div class="top-navigation">
         <div class="logo-section">
-            <a href="" id="branding" title="logo-black"><img src="./images/logo.svg" alt="logo-black"
-                    title="logo-black"></a> <a href="#" id="branding-text" title="truly sri lanka">
+            <a href="http://localhost/trulysrilanka" id="branding" title="logo-black"><img src="./images/logo.svg" alt="logo-black"
+                    title="logo-black"></a> <a href="http://localhost/trulysrilanka" id="branding-text" title="truly sri lanka">
                 <img src="./images/logo.svg" alt="truly sri lanka" title="truly sri lanka">
             </a>
         </div>
         <div class="special-links-section">
             <ul id="menu-top-menu" class="">
-                <li class="current-menu-item"><a title="Home" href="http://localhost/trulysrilanka/"
-                        aria-current="page"><span>Home</span></a></li>
+                
                 <li><a href="./destination.php"><span>Explore</span></a></li>
-                <li><a href="http://localhost/trulysrilanka/hotels.html"><span>Hotels</span></a></li>
-                <li><a href="http://localhost/trulysrilanka/sri-lanka-villas-and-bungalows.html"><span>Villas</span></a>
-                </li>
-                <li><a href="http://localhost/trulysrilanka/srilanka-attractions.html"><span>Attractions</span></a>
-                </li>
+                
                 <li><a href="http://localhost/trulysrilanka/things-to-do.html"><span>Things to Do</span></a></li>
             </ul>
         </div>
@@ -73,16 +68,11 @@
                                             </li>
                                             <li><a href="http://localhost/trulysrilanka/things-to-do.html">Things to
                                                     Do</a></li>
-                                            <li><a
-                                                    href="http://localhost/trulysrilanka/srilanka-attractions.html">Attractions</a>
-                                            </li>
-                                            <li><a href="http://localhost/trulysrilanka/hotels.html">Hotels</a></li>
+                                            
                                             <li><a href="http://localhost/trulysrilanka/about-sri-lanka.html">About
                                                     Sri
                                                     Lanka</a></li>
-                                            <li><a
-                                                    href="http://localhost/trulysrilanka/sri-lanka-villas-and-bungalows.html">Villas</a>
-                                            </li>
+                                            
                                         </ul>
                                     </div>
 
@@ -124,13 +114,7 @@
                                         <li><a href="http://localhost/trulysrilanka/things-to-do.html">Things to
                                                 Do</a>
                                         </li>
-                                        <li><a
-                                                href="http://localhost/trulysrilanka/srilanka-attractions.html">Attractions</a>
-                                        </li>
-                                        <li><a href="http://localhost/trulysrilanka/hotels.html">Hotels</a></li>
-                                        <li><a
-                                                href="http://localhost/trulysrilanka/sri-lanka-villas-and-bungalows.html">Villas</a>
-                                        </li>
+                                       
                                         <li><a href="http://localhost/trulysrilanka/about-sri-lanka.html">About Sri
                                                 Lanka</a></li>
                                         <li><a href="http://localhost/trulysrilanka/contact-us.html">Contact Us</a>

@@ -190,10 +190,7 @@
                                                     <div class="content">
                                                         <div class="title">Colombo</div>
                                                         <div class="text">The vibrant metropolis of Colombo, Sri Lanka,
-                                                            is a tropical haven with a rich colonial history. As the
-                                                            country’s premier destination for top attractions, dining,
-                                                            and shopping, Colombo offers some of the best urban
-                                                            experiences for those eager to explore its beauty.</div>
+                                       is a tropical haven with a rich colonial history.....</div>
                                                         <a href="http://localhost/trulysrilanka/location/colombo.php"
                                                             class="link-type-1" title="Read More">Read More</a>
                                                     </div>
@@ -204,13 +201,12 @@
                                                     </div>
                                                     <div class="content">
                                                         <div class="title">Galle</div>
-                                                        <div class="text">Galle, home to a UNESCO World Heritage Site,
+                                                        <div class="text"> Galle, home to a UNESCO World Heritage Site,
                                                             is a must-visit destination in Sri Lanka. This charming
                                                             coastal town boasts a variety of fascinating attractions and
-                                                            experiences. Make sure to explore its rich history and
-                                                            scenic beauty on your next vacation
+                                                            experiences.....
                                                         </div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/galle.html"
+                                                        <a href="http://localhost/trulysrilanka/location/Galle.php"
                                                             class="link-type-1" title="Read More">Read More</a>
                                                     </div>
                                                 </div>
@@ -222,11 +218,9 @@
                                                         <div class="title">Hikkaduwa</div>
                                                         <div class="text">Hikkaduwa, located on Sri Lanka’s southwestern
                                                             coast, is a top tourist destination known for its stunning
-                                                            beaches, vibrant nightlife, and exciting water activities.
-                                                            Whether you're looking for adventure, relaxation, or
-                                                            cultural experiences, Hikkaduwa has something for everyone.
+                                                            beaches, vibrant nightlife, and exciting water activities.....
                                                         </div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/hikkaduwa.html"
+                                                        <a href="http://localhost/trulysrilanka/location/hikkaduwa.php"
                                                             class="link-type-1" title="Read More">Read More</a>
                                                     </div>
                                                 </div>
@@ -236,13 +230,8 @@
                                                     </div>
                                                     <div class="content">
                                                         <div class="title">Kandy</div>
-                                                        <div class="text">Kandy, located in the central hills of Sri
-                                                            Lanka, is a UNESCO World Heritage City known for its rich
-                                                            history, cultural significance, and stunning natural beauty.
-                                                            As the last capital of the ancient Sinhalese kings, Kandy is
-                                                            home to sacred temples, lush landscapes, and vibrant
-                                                            festivals</div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/kandy.html"
+                                                        <div class="text">Kandy, nestled in the lush central hills of Sri Lanka, is a city rich in history, culture, and natural beauty.....</div>
+                                                        <a href="http://localhost/trulysrilanka/location/kandy.php"
                                                             class="link-type-1" title="Read More">Read More</a>
                                                     </div>
                                                 </div>
@@ -252,12 +241,8 @@
                                                     </div>
                                                     <div class="content">
                                                         <div class="title">Unawatuna</div>
-                                                        <div class="text">Unawatuna, located on Sri Lanka’s southern
-                                                            coast, is a stunning beach destination known for its golden
-                                                            sandy shores, turquoise waters, and laid-back atmosphere. It
-                                                            is a favorite among travelers looking for relaxation,
-                                                            adventure, and vibrant beachside experiences.</div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/unawatuna.html"
+                                                        <div class="text">Unawatuna, located along Sri Lanka's southwestern coast, is a tropical beach destination known for its golden sands, crystal-clear waters, and lush greenery.....</div>
+                                                        <a href="http://localhost/trulysrilanka/location/unawatuna.php"
                                                             class="link-type-1" title="Read More">Read More</a>
                                                     </div>
                                                 </div>
@@ -267,15 +252,8 @@
                                                     </div>
                                                     <div class="content">
                                                         <div class="title">Tangalle</div>
-                                                        <div class="text">Located approximately 200 kilometers from
-                                                            Colombo, Tangalle is a picturesque coastal getaway on Sri
-                                                            Lanka’s southern shore. Known for its pristine beaches and
-                                                            tranquil atmosphere, this charming destination perfectly
-                                                            embodies the essence of a tropical retreat. Whether you're
-                                                            looking to explore the local culture or simply relax under
-                                                            the warm sun, Tangalle offers the ideal balance of peaceful
-                                                            relaxation and cultural discovery.</div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/tangalle.html"
+                                                        <div class="text">Tangalle, located on Sri Lanka’s southern coast, is a tranquil town known for its pristine beaches, lush nature, and serene atmosphere.....</div>
+                                                        <a href="http://localhost/trulysrilanka/location/tangalle.php"
                                                             class="link-type-1" title="Read More">Read More</a>
                                                     </div>
                                                 </div>
@@ -285,13 +263,8 @@
                                                     </div>
                                                     <div class="content">
                                                         <div class="title">Polonnaruwa</div>
-                                                        <div class="text">Polonnaruwa, a UNESCO World Heritage Site, is
-                                                            one of Sri Lanka’s most significant ancient cities. Located
-                                                            in the north-central part of the island, this historical
-                                                            town is renowned for its well-preserved ruins, ancient
-                                                            temples, and fascinating monuments that tell the story of
-                                                            the island's rich cultural heritage.</div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/polonnaruwa.html"
+                                                        <div class="text">Polonnaruwa, a UNESCO World Heritage Site, is one of Sri Lanka’s most historically significant cities, offering travelers a glimpse into the island’s ancient civilization......</div>
+                                                        <a href="http://localhost/trulysrilanka/location/polonnaruwa.php"
                                                             class="link-type-1" title="Read More">Read More</a>
                                                     </div>
                                                 </div>
@@ -301,13 +274,8 @@
                                                     </div>
                                                     <div class="content">
                                                         <div class="title">Arugam Bay</div>
-                                                        <div class="text">Arugam Bay, located on Sri Lanka’s
-                                                            southeastern coast, is one of the island’s most famous and
-                                                            picturesque beach destinations. Known for its laid-back vibe
-                                                            and excellent surf breaks, Arugam Bay has become a hotspot
-                                                            for travelers seeking adventure, relaxation, and a taste of
-                                                            Sri Lankan coastal life</div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/arugam-bay.html"
+                                                        <div class="text">Arugam Bay, located on the southeast coast of Sri Lanka, is a world-famous surfing destination known for its stunning beaches, laid-back atmosphere, and vibrant nightlife.....</div>
+                                                        <a href="http://localhost/trulysrilanka/location/arugam-bay.php"
                                                             class="link-type-1" title="Read More">Read More</a>
                                                     </div>
                                                 </div>
@@ -323,7 +291,7 @@
                                                             landmarks. With its pristine coastline, lush landscapes, and
                                                             fascinating history, Trincomalee offers a unique blend of
                                                             relaxation, adventure, and cultural exploration</div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/trincomalee.html"
+                                                        <a href="http://localhost/trulysrilanka/location/trincomalee.php"
                                                             class="link-type-1" title="Read More">Read More</a>
                                                     </div>
                                                 </div>
