@@ -1,8 +1,8 @@
 <header>
     <div class="top-navigation">
         <div class="logo-section">
-            <a href="http://localhost/trulysrilanka" id="branding" title="logo-black"><img src="./images/logo.svg" alt="logo-black"
-                    title="logo-black"></a> <a href="http://localhost/trulysrilanka" id="branding-text" title="truly sri lanka">
+            <a href="http://localhost/sl" id="branding" title="logo-black"><img src="./images/logo.svg" alt="logo-black"
+                    title="logo-black"></a> <a href="http://localhost/sl" id="branding-text" title="truly sri lanka">
                 <img src="./images/logo.svg" alt="truly sri lanka" title="truly sri lanka">
             </a>
         </div>
@@ -11,7 +11,7 @@
                 
                 <li><a href="./destination.php"><span>Explore</span></a></li>
                 
-                <li><a href="http://localhost/trulysrilanka/things-to-do.html"><span>Things to Do</span></a></li>
+                <li><a href="http://localhost/sl/things-to-do.html"><span>Things to Do</span></a></li>
             </ul>
         </div>
 
@@ -36,7 +36,7 @@
                             <!-- logo coulumn start -->
                             <div class="column-view logo-column">
                                 <div class="column-inner-wrapper">
-                                    <a href="http://localhost/trulysrilanka" class="logo-black-desktop clearfix"
+                                    <a href="http://localhost/sl" class="logo-black-desktop clearfix"
                                         title="logo-black">
                                         <img src="./images/logo2.png" alt="logo-black" title="logo-black">
                                     </a>
@@ -62,14 +62,14 @@
                                 <div class="main-menu-social-media-mobile-container">
                                     <div class="main-menu-mobile-container">
                                         <ul id="main-menu" class="">
-                                            <li class="current-menu-item"><a href="http://localhost/trulysrilanka/"
+                                            <li class="current-menu-item"><a href="http://localhost/sl/"
                                                     aria-current="page">Home</a></li>
                                             <li><a href="./destination.php">Explore</a>
                                             </li>
-                                            <li><a href="http://localhost/trulysrilanka/things-to-do.html">Things to
+                                            <li><a href="http://localhost/sl/things-to-do.html">Things to
                                                     Do</a></li>
                                             
-                                            <li><a href="http://localhost/trulysrilanka/about-sri-lanka.html">About
+                                            <li><a href="http://localhost/sl/about-sri-lanka.html">About
                                                     Sri
                                                     Lanka</a></li>
                                             
@@ -88,7 +88,7 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://www.instagram.com/trulysrilanka/" target="_blank">
+                                                <a href="https://www.instagram.com/sl/" target="_blank">
                                                     <svg class="icon svg-instagram">
                                                         <use xlink:href="#svg-icon-instagram"></use>
                                                     </svg>
@@ -107,17 +107,17 @@
                                 <!-- /.main-menu-mobile-container --->
                                 <div class="main-menu-desktop-container">
                                     <ul id="main-menu-desktop" class="">
-                                        <li class="current-menu-item"><a href="http://localhost/trulysrilanka/"
+                                        <li class="current-menu-item"><a href="http://localhost/sl/"
                                                 aria-current="page">Home</a></li>
-                                        <li><a href="http://localhost/trulysrilanka/destinations.html">Explore</a>
+                                        <li><a href="http://localhost/sl/destinations.html">Explore</a>
                                         </li>
-                                        <li><a href="http://localhost/trulysrilanka/things-to-do.html">Things to
+                                        <li><a href="http://localhost/sl/things-to-do.html">Things to
                                                 Do</a>
                                         </li>
                                        
-                                        <li><a href="http://localhost/trulysrilanka/about-sri-lanka.html">About Sri
+                                        <li><a href="http://localhost/sl/about-sri-lanka.html">About Sri
                                                 Lanka</a></li>
-                                        <li><a href="http://localhost/trulysrilanka/contact-us.html">Contact Us</a>
+                                        <li><a href="http://localhost/sl/contact-us.html">Contact Us</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -139,19 +139,19 @@
                                 <!-- <ul>
 						
 							<li>
-								<a href="http://localhost/trulysrilanka/destinations/colombo.html">
+								<a href="http://localhost/sl/destinations/colombo.html">
 									Colombo								</a>
 							</li>
 
 						
 							<li>
-								<a href="http://localhost/trulysrilanka/destinations/galle.html">
+								<a href="http://localhost/sl/destinations/galle.html">
 									Galle								</a>
 							</li>
 
 						
 							<li>
-								<a href="http://localhost/trulysrilanka/destinations/kandy.html">
+								<a href="http://localhost/sl/destinations/kandy.html">
 									Kandy								</a>
 							</li>
 
@@ -160,19 +160,19 @@
 
                                 <div class="owl-carousel feat-destin">
                                     <div class="item">
-                                        <a href="http://localhost/trulysrilanka/destinations/colombo.html"
+                                        <a href="http://localhost/sl/destinations/colombo.html"
                                             style="background-image: url(./images/colombo.jpg);">
                                             <span>Colombo</span>
                                         </a>
                                     </div>
                                     <div class="item">
-                                        <a href="http://localhost/trulysrilanka/destinations/galle.html"
+                                        <a href="http://localhost/sl/destinations/galle.html"
                                             style="background-image: url(./images/Kandy.jpg);">
                                             <span>Kandy</span>
                                         </a>
                                     </div>
                                     <div class="item">
-                                        <a href="http://localhost/trulysrilanka/destinations/kandy.html"
+                                        <a href="http://localhost/sl/destinations/kandy.html"
                                             style="background-image: url(./images/4.jpg);">
                                             <span>Ella</span>
                                         </a>

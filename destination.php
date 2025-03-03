@@ -25,9 +25,9 @@
 
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="http://localhost/trulysrilanka/wp-content/themes/reTlsTheme/favicon.ico"
+    <link rel="shortcut icon" href="http://localhost/sl/wp-content/themes/reTlsTheme/favicon.ico"
         type="image/x-icon" />
-    <link rel="icon" href="http://localhost/trulysrilanka/wp-content/themes/reTlsTheme/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="http://localhost/sl/wp-content/themes/reTlsTheme/favicon.ico" type="image/x-icon">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -84,25 +84,25 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
 
-    <link rel="preload" href="http://localhost/trulysrilanka/wp-content/themes/reTlsTheme/assets/style.css?v=6.13"
+    <link rel="preload" href="http://localhost/sl/wp-content/themes/reTlsTheme/assets/style.css?v=6.13"
         as="style">
-    <link rel="stylesheet" href="http://localhost/trulysrilanka/wp-content/themes/reTlsTheme/assets/style.css?v=6.13">
+    <link rel="stylesheet" href="http://localhost/sl/wp-content/themes/reTlsTheme/assets/style.css?v=6.13">
     <link rel="stylesheet"
-        href="http://localhost/trulysrilanka/wp-content/themes/reTlsTheme/assets/css/bootstrap-slider.min.css">
+        href="http://localhost/sl/wp-content/themes/reTlsTheme/assets/css/bootstrap-slider.min.css">
     <!-- jquery -->
-    <script src="http://localhost/trulysrilanka/wp-content/themes/reTlsTheme/assets/js/jquery.min.js"></script>
+    <script src="http://localhost/sl/wp-content/themes/reTlsTheme/assets/js/jquery.min.js"></script>
     <link rel='stylesheet' id='wp-block-library-css'
-        href='http://localhost/trulysrilanka/wp-includes/css/dist/block-library/style.min.css?ver=5.4.9' type='text/css'
+        href='http://localhost/sl/wp-includes/css/dist/block-library/style.min.css?ver=5.4.9' type='text/css'
         media='all' />
     <link rel='stylesheet' id='dfb-frontend-css'
-        href='http://localhost/trulysrilanka/wp-content/plugins/dynamic-form-builder/inc/css/dfb-frontend.css?ver=20141031'
+        href='http://localhost/sl/wp-content/plugins/dynamic-form-builder/inc/css/dfb-frontend.css?ver=20141031'
         type='text/css' media='all' />
     <script type='text/javascript'
-        src='http://localhost/trulysrilanka/wp-content/plugins/dynamic-form-builder/inc/js/dfb-frontend.min.js?ver=20141031'>
+        src='http://localhost/sl/wp-content/plugins/dynamic-form-builder/inc/js/dfb-frontend.min.js?ver=20141031'>
     </script>
-    <link rel="canonical" href="http://localhost/trulysrilanka/destinations.html" />
+    <link rel="canonical" href="http://localhost/sl/destinations.html" />
     <script type="text/javascript">
-    var ajaxurl = "http://localhost/trulysrilanka/wp-admin/admin-ajax.php";
+    var ajaxurl = "http://localhost/sl/wp-admin/admin-ajax.php";
     </script>
 </head>
 
@@ -133,7 +133,7 @@
         <div class="banner-inner-wrapper">
             <div class="left-image-wrapper">
                 <div class="inner-bg-img"
-                    style="background-image:url('http://localhost/trulysrilanka/wp-content/themes/reTlsTheme/assets/images/inner-header-bg.png')">
+                    style="background-image:url('http://localhost/sl/wp-content/themes/reTlsTheme/assets/images/inner-header-bg.png')">
                 </div>
             </div>
             <div class="right-image-wrapper">
@@ -145,7 +145,7 @@
                     </div>
 
                     <div class="mobile-logo">
-                        <a href="http://localhost/trulysrilanka" id="branding-white" title="Truly Sri Lanka"
+                        <a href="http://localhost/sl" id="branding-white" title="Truly Sri Lanka"
                             style="display: inline-block; padding: 15px 0;">
                             <img src="./images/logo3.png" alt="Truly Sri Lanka" title="Truly Sri Lanka">
                         </a>
@@ -190,8 +190,8 @@
                                                     <div class="content">
                                                         <div class="title">Colombo</div>
                                                         <div class="text">The vibrant metropolis of Colombo, Sri Lanka,
-                                       is a tropical haven with a rich colonial history.....</div>
-                                                        <a href="http://localhost/trulysrilanka/location/colombo.php"
+                                                              is a tropical haven with a rich colonial history.....</div>
+                                                        <a href="http://localhost/sl/location/colombo.php"
                                                             class="link-type-1" title="Read More">Read More</a>
                                                     </div>
                                                 </div>
@@ -206,7 +206,7 @@
                                                             coastal town boasts a variety of fascinating attractions and
                                                             experiences.....
                                                         </div>
-                                                        <a href="http://localhost/trulysrilanka/location/Galle.php"
+                                                        <a href="http://localhost/sl/location/Galle.php"
                                                             class="link-type-1" title="Read More">Read More</a>
                                                     </div>
                                                 </div>
@@ -220,7 +220,7 @@
                                                             coast, is a top tourist destination known for its stunning
                                                             beaches, vibrant nightlife, and exciting water activities.....
                                                         </div>
-                                                        <a href="http://localhost/trulysrilanka/location/hikkaduwa.php"
+                                                        <a href="http://localhost/sl/location/hikkaduwa.php"
                                                             class="link-type-1" title="Read More">Read More</a>
                                                     </div>
                                                 </div>
@@ -231,7 +231,7 @@
                                                     <div class="content">
                                                         <div class="title">Kandy</div>
                                                         <div class="text">Kandy, nestled in the lush central hills of Sri Lanka, is a city rich in history, culture, and natural beauty.....</div>
-                                                        <a href="http://localhost/trulysrilanka/location/kandy.php"
+                                                        <a href="http://localhost/sl/location/kandy.php"
                                                             class="link-type-1" title="Read More">Read More</a>
                                                     </div>
                                                 </div>
@@ -242,7 +242,7 @@
                                                     <div class="content">
                                                         <div class="title">Unawatuna</div>
                                                         <div class="text">Unawatuna, located along Sri Lanka's southwestern coast, is a tropical beach destination known for its golden sands, crystal-clear waters, and lush greenery.....</div>
-                                                        <a href="http://localhost/trulysrilanka/location/unawatuna.php"
+                                                        <a href="http://localhost/sl/location/unawatuna.php"
                                                             class="link-type-1" title="Read More">Read More</a>
                                                     </div>
                                                 </div>
@@ -253,7 +253,7 @@
                                                     <div class="content">
                                                         <div class="title">Tangalle</div>
                                                         <div class="text">Tangalle, located on Sri Lanka’s southern coast, is a tranquil town known for its pristine beaches, lush nature, and serene atmosphere.....</div>
-                                                        <a href="http://localhost/trulysrilanka/location/tangalle.php"
+                                                        <a href="http://localhost/sl/location/tangalle.php"
                                                             class="link-type-1" title="Read More">Read More</a>
                                                     </div>
                                                 </div>
@@ -264,7 +264,7 @@
                                                     <div class="content">
                                                         <div class="title">Polonnaruwa</div>
                                                         <div class="text">Polonnaruwa, a UNESCO World Heritage Site, is one of Sri Lanka’s most historically significant cities, offering travelers a glimpse into the island’s ancient civilization......</div>
-                                                        <a href="http://localhost/trulysrilanka/location/polonnaruwa.php"
+                                                        <a href="http://localhost/sl/location/polonnaruwa.php"
                                                             class="link-type-1" title="Read More">Read More</a>
                                                     </div>
                                                 </div>
@@ -275,7 +275,7 @@
                                                     <div class="content">
                                                         <div class="title">Arugam Bay</div>
                                                         <div class="text">Arugam Bay, located on the southeast coast of Sri Lanka, is a world-famous surfing destination known for its stunning beaches, laid-back atmosphere, and vibrant nightlife.....</div>
-                                                        <a href="http://localhost/trulysrilanka/location/arugam-bay.php"
+                                                        <a href="http://localhost/sl/location/arugam-bay.php"
                                                             class="link-type-1" title="Read More">Read More</a>
                                                     </div>
                                                 </div>
@@ -285,13 +285,8 @@
                                                     </div>
                                                     <div class=" content">
                                                         <div class="title">Trincomalee</div>
-                                                        <div class="text">Trincomalee, located on the northeast coast of
-                                                            Sri Lanka, is a stunning and historically rich city known
-                                                            for its beautiful beaches, natural harbors, and cultural
-                                                            landmarks. With its pristine coastline, lush landscapes, and
-                                                            fascinating history, Trincomalee offers a unique blend of
-                                                            relaxation, adventure, and cultural exploration</div>
-                                                        <a href="http://localhost/trulysrilanka/location/trincomalee.php"
+                                                        <div class="text">Trincomalee, located on Sri Lanka’s northeastern coast, is a breathtaking coastal city known for its pristine beaches, rich history, and vibrant marine life.....</div>
+                                                        <a href="http://localhost/sl/location/trincomalee.php"
                                                             class="link-type-1" title="Read More">Read More</a>
                                                     </div>
                                                 </div>
@@ -301,14 +296,8 @@
                                                     </div>
                                                     <div class="content">
                                                         <div class="title">Nuwara Eliya</div>
-                                                        <div class="text">Nuwara Eliya, located in the central highlands
-                                                            of Sri Lanka, is a charming hill station known for its cool
-                                                            climate, scenic landscapes, and colonial architecture. Often
-                                                            referred to as "Little England," it offers visitors a
-                                                            refreshing escape with lush tea plantations, vibrant
-                                                            gardens, and beautiful waterfalls. This picturesque town is
-                                                            a perfect blend of nature, history, and relaxation</div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/nuwara-eliya.html"
+                                                        <div class="text">Nuwara Eliya, often called "Little England," is a beautiful hill station in the central highlands of Sri Lanka, famous for its cool climate, tea plantations, waterfalls, and colonial architecture.....</div>
+                                                        <a href="http://localhost/sl/location/nuwaraeliya.php"
                                                             class="link-type-1" title="Read More">Read More</a>
                                                     </div>
                                                 </div>
@@ -323,7 +312,7 @@
                                                             hiking trails. This picturesque destination offers a perfect
                                                             blend of adventure and relaxation, making it a must-visit
                                                             for nature lovers and outdoor enthusiasts.</div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/ella.html"
+                                                        <a href="http://localhost/sl/location/ella.php"
                                                             class="link-type-1" title="Read More">Read More</a>
                                                     </div>
                                                 </div>
@@ -341,7 +330,7 @@
                                                             stunning natural beauty, Mirissa has become one of the most
                                                             sought-after beach destinations in Sri Lanka.
                                                         </div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/mirissa.html"
+                                                        <a href="http://localhost/sl/destinations/mirissa.html"
                                                             class="link-type-1" title="Read More">Read More</a>
                                                     </div>
                                                 </div>
@@ -360,7 +349,7 @@
                                                             water activities, and scenic beauty, making it one of Sri
                                                             Lanka's hidden gems.
                                                         </div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/pasikudah.html"
+                                                        <a href="http://localhost/sl/destinations/pasikudah.html"
                                                             class="link-type-1" title="Read More">Read More</a>
                                                     </div>
                                                 </div>
@@ -378,7 +367,7 @@
                                                             for both travelers starting or ending their Sri Lanka
                                                             journey, as well as those seeking a relaxing beach escape.
                                                         </div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/negombo.html"
+                                                        <a href="http://localhost/sl/destinations/negombo.html"
                                                             class="link-type-1" title="Read More">Read More</a>
                                                     </div>
                                                 </div>
@@ -396,7 +385,7 @@
                                                             including the elusive Sri Lankan leopard, elephants, and
                                                             numerous bird species
                                                         </div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/yala.html"
+                                                        <a href="http://localhost/sl/destinations/yala.html"
                                                             class="link-type-1" title="Read More">Read More</a>
                                                     </div>
                                                 </div>
@@ -414,7 +403,7 @@
                                                             Jaffna offers travelers a unique experience that combines
                                                             history, spirituality, and the warmth of northern Sri Lankan
                                                             hospitality.</div>
-                                                        <a href="http://localhost/trulysrilanka/destinations/jaffna.html"
+                                                        <a href="http://localhost/sl/destinations/jaffna.html"
                                                             class="link-type-1" title="Read More">Read More</a>
                                                     </div>
                                                 </div>
@@ -426,7 +415,7 @@
                                         <div class="slider-mb-only">
                                             <div class="listing-types">
                                                 <div class="item">
-                                                    <a href="http://localhost/trulysrilanka/destinations/anuradhapura.html"
+                                                    <a href="http://localhost/sl/destinations/anuradhapura.html"
                                                         class="item-inner">
                                                         <div class="image">
                                                             <img src="./images/12.webp" alt="" class="img-fluid">
@@ -446,14 +435,14 @@
                                                                 serene monasteries make it a must-visit destination for
                                                                 history buffs, spiritual seekers, and culture
                                                                 enthusiasts.</div>
-                                                            <a href="http://localhost/trulysrilanka/destinations/anuradhapura.html"
+                                                            <a href="http://localhost/sl/destinations/anuradhapura.html"
                                                                 class="link-type-1" title="Read More">Find out
                                                                 More</a>
                                                         </div>
                                                     </a><!-- /.item-inner -->
                                                 </div>
                                                 <div class="item">
-                                                    <a href="http://localhost/trulysrilanka/destinations/sigiriya.html"
+                                                    <a href="http://localhost/sl/destinations/sigiriya.html"
                                                         class="item-inner">
                                                         <div class="image">
                                                             <img src="./images/3.jpg" alt="" class="img-fluid">
@@ -471,14 +460,14 @@
                                                                 architecture, Sigiriya is a must-visit destination for
                                                                 travelers seeking both adventure and cultural immersion.
                                                             </div>
-                                                            <a href="http://localhost/trulysrilanka/destinations/sigiriya.html"
+                                                            <a href="http://localhost/sl/destinations/sigiriya.html"
                                                                 class="link-type-1" title="Read More">Find out
                                                                 More</a>
                                                         </div>
                                                     </a><!-- /.item-inner -->
                                                 </div>
                                                 <div class="item">
-                                                    <a href="http://localhost/trulysrilanka/destinations/bentota.html"
+                                                    <a href="http://localhost/sl/destinations/bentota.html"
                                                         class="item-inner">
                                                         <div class="image">
                                                             <img src="./images/bentota.jpg" alt="" class="img-fluid">
@@ -497,7 +486,7 @@
                                                                 luxurious resorts, and rich cultural attractions,
                                                                 Bentota is perfect for a beach getaway
                                                             </div>
-                                                            <a href="http://localhost/trulysrilanka/destinations/bentota.html"
+                                                            <a href="http://localhost/sl/destinations/bentota.html"
                                                                 class="link-type-1" title="Read More">Find out
                                                                 More</a>
                                                         </div>
@@ -517,7 +506,7 @@
             </div><!-- /.container-fluid -->
         </div><!-- /.ts-things-to-do-listing-page-->
     </main>
-    <script type='text/javascript' src='http://localhost/trulysrilanka/wp-includes/js/wp-embed.min.js?ver=5.4.9'>
+    <script type='text/javascript' src='http://localhost/sl/wp-includes/js/wp-embed.min.js?ver=5.4.9'>
     </script>
     <?php
         include "./footer.php";
@@ -540,18 +529,18 @@
     </script>
 
     <script defer
-        src="http://localhost/trulysrilanka/wp-content/themes/reTlsTheme/assets/js/slider-menu.jquery-custom.js">
+        src="http://localhost/sl/wp-content/themes/reTlsTheme/assets/js/slider-menu.jquery-custom.js">
     </script>
-    <script defer src="http://localhost/trulysrilanka/wp-content/themes/reTlsTheme/assets/js/owl.carousel.min.js">
+    <script defer src="http://localhost/sl/wp-content/themes/reTlsTheme/assets/js/owl.carousel.min.js">
     </script>
-    <script defer src="http://localhost/trulysrilanka/wp-content/themes/reTlsTheme/assets/js/bootstrap.min.js"></script>
-    <script defer src="http://localhost/trulysrilanka/wp-content/themes/reTlsTheme/assets/js/jquery.fancybox.min.js">
+    <script defer src="http://localhost/sl/wp-content/themes/reTlsTheme/assets/js/bootstrap.min.js"></script>
+    <script defer src="http://localhost/sl/wp-content/themes/reTlsTheme/assets/js/jquery.fancybox.min.js">
     </script>
-    <script defer src="http://localhost/trulysrilanka/wp-content/themes/reTlsTheme/assets/js/jquery.validate.min.js">
+    <script defer src="http://localhost/sl/wp-content/themes/reTlsTheme/assets/js/jquery.validate.min.js">
     </script>
-    <script defer src="http://localhost/trulysrilanka/wp-content/themes/reTlsTheme/assets/js/bootstrap-slider.js">
+    <script defer src="http://localhost/sl/wp-content/themes/reTlsTheme/assets/js/bootstrap-slider.js">
     </script>
-    <script defer src="http://localhost/trulysrilanka/wp-content/themes/reTlsTheme/assets/js/functions.min.js"></script>
+    <script defer src="http://localhost/sl/wp-content/themes/reTlsTheme/assets/js/functions.min.js"></script>
 
     <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
         <symbol id="icon-blogger" viewBox="0 0 14.41 14.16">

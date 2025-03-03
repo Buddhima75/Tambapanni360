@@ -4,7 +4,7 @@
 
             <div class="column-1">
                 <div class="logo-section">
-                    <a href="http://localhost/trulysrilanka" title="Truly Sri Lanka">
+                    <a href="http://localhost/sl" title="Truly Sri Lanka">
                         <img src="../images/logo2.png" alt="Truly Sri Lanka" title="Truly Sri Lanka" class="img-fluid">
                     </a>
                 </div>
@@ -14,18 +14,18 @@
             <div class="column-3">
                 <div class="footer-main-links-section">
                     <ul id="menu-footer-menu" class="footer-main-menu">
-                        <li class="current-menu-item"><a href="http://localhost/trulysrilanka/"
+                        <li class="current-menu-item"><a href="http://localhost/sl/"
                                 aria-current="page">Home</a></li>
-                        <li><a href="http://localhost/trulysrilanka/register-your-hotel.html">List Your Property</a>
+                        <li><a href="http://localhost/sl/register-your-hotel.html">List Your Property</a>
                         </li>
-                        <li><a href="http://localhost/trulysrilanka/hotels.html">Hotels</a></li>
-                        <li><a href="http://localhost/trulysrilanka/about-sri-lanka.html">About Sri Lanka</a></li>
-                        <li><a href="http://localhost/trulysrilanka/vouchers.html">Book Now Stay Later</a></li>
-                        <li><a href="http://localhost/trulysrilanka/destinations.html">Explore</a></li>
-                        <li><a href="http://localhost/trulysrilanka/photo-credits.html">Photo Credits</a></li>
-                        <li><a href="http://localhost/trulysrilanka/srilanka-attractions.html">Attractions</a></li>
-                        <li><a href="http://localhost/trulysrilanka/contact-us.html">Contact Us</a></li>
-                        <li><a href="http://localhost/trulysrilanka/things-to-do.html">Things to Do</a></li>
+                        <li><a href="http://localhost/sl/hotels.html">Hotels</a></li>
+                        <li><a href="http://localhost/sl/about-sri-lanka.html">About Sri Lanka</a></li>
+                        <li><a href="http://localhost/sl/vouchers.html">Book Now Stay Later</a></li>
+                        <li><a href="http://localhost/sl/destinations.html">Explore</a></li>
+                        <li><a href="http://localhost/sl/photo-credits.html">Photo Credits</a></li>
+                        <li><a href="http://localhost/sl/srilanka-attractions.html">Attractions</a></li>
+                        <li><a href="http://localhost/sl/contact-us.html">Contact Us</a></li>
+                        <li><a href="http://localhost/sl/things-to-do.html">Things to Do</a></li>
                     </ul>
                 </div>
 
@@ -34,12 +34,12 @@
                 <nav class="navbar-default">
                     <div class="footer-links-section">
                         <ul id="menu-bottom-menu" class="">
-                            <li><a href="http://localhost/trulysrilanka/gdpr-compliance.html">GDPR Compliance</a>
+                            <li><a href="http://localhost/sl/gdpr-compliance.html">GDPR Compliance</a>
                             </li>
-                            <li><a href="http://localhost/trulysrilanka/terms-and-conditions.html">Terms and
+                            <li><a href="http://localhost/sl/terms-and-conditions.html">Terms and
                                     Conditions</a></li>
-                            <li><a href="http://localhost/trulysrilanka/privacy-policy.html">Privacy Policy</a></li>
-                            <li><a href="http://localhost/trulysrilanka/site-map.html">Sitemap</a></li>
+                            <li><a href="http://localhost/sl/privacy-policy.html">Privacy Policy</a></li>
+                            <li><a href="http://localhost/sl/site-map.html">Sitemap</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -60,7 +60,7 @@
                         Be the First to Know
                     </div>
                     <div class="newsletter-form">
-                        <form method="post" action="http://localhost/trulysrilanka/newsletter.html" id="ftr_newsltr">
+                        <form method="post" action="http://localhost/sl/newsletter.html" id="ftr_newsltr">
                             <div class="form-group">
                                 <input type="email" class="form-control" name="param_email" id="email"
                                     placeholder="Enter Your Email">
@@ -83,7 +83,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/trulysrilanka/" target="_blank">
+                            <a href="https://www.instagram.com/sl/" target="_blank">
                                 <svg class="icon svg-instagram">
                                     <use xlink:href="#svg-icon-instagram"></use>
                                 </svg>
