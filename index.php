@@ -11,18 +11,18 @@
 
 <head>
 
-    <title>Travel to Sri Lanka | Truly Sri Lanka | Travel Guides, Tips and Weather
+    <title>Travel to Sri Lanka | Tambapannni 361° | Travel Guides, Tips and Weather
 
     </title>
     <meta name="description" content="Travel to Sri Lanka and experience the wonders of the Pearl of the Indian Ocean, boasting wonderous historic sites and warm hospitality for the perfect vacation.
 " />
-    <meta name="keywords" content="sri lanka travel, travel to sri lanka, pearl of the indian ocean,attractions, things to do, top attractions, how to travel, places to travel, truly sri lanka, sri lanka
+    <meta name="keywords" content="sri lanka travel, travel to sri lanka, pearl of the indian ocean,attractions, things to do, top attractions, how to travel, places to travel, Tambapannni 361°, sri lanka
 " />
     <meta property="og:title" content="" />
     <meta property="og:description" content="" />
     <meta property="og:image" content="" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Truly Sri Lanka" />
+    <meta property="og:site_name" content="Tambapannni 361°" />
 
 
     <!-- Favicon -->
@@ -46,49 +46,257 @@
     <!--GTM Code-->
     <!-- Google Tag Manager -->
     <script>
-    (function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start': new Date().getTime(),
-            event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s),
-            dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-K3C2DNQ');
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-K3C2DNQ');
+        // 
     </script>
     <!-- End Google Tag Manager -->
 
 
     <style>
-    /*Destination page color changes*/
+        /*Destination page color changes*/
 
-    .line-title:before {
-        content: "";
-        background: #000;
-    }
-
-    .apply-color,
-    .tab-level-nav .shareparent .left-navbar ul .active a {
-        color: #000 !important;
-    }
-
-    @media only screen and (min-width: 1200px) {
-
-        .tab-level-nav .shareparent .left-navbar ul .active a:before,
-        .tab-level-nav .shareparent .left-navbar ul .active a:after {
-            background-color: #000 !important;
+        .line-title:before {
+            content: "";
+            background: #000;
         }
 
-        .tab-level-nav .shareparent .left-navbar ul li a:hover,
-        .tab-level-nav .shareparent .left-navbar ul li a:focus {
+        .apply-color,
+        .tab-level-nav .shareparent .left-navbar ul .active a {
             color: #000 !important;
         }
-    }
+
+        @media only screen and (min-width: 1200px) {
+
+            .tab-level-nav .shareparent .left-navbar ul .active a:before,
+            .tab-level-nav .shareparent .left-navbar ul .active a:after {
+                background-color: #000 !important;
+            }
+
+            .tab-level-nav .shareparent .left-navbar ul li a:hover,
+            .tab-level-nav .shareparent .left-navbar ul li a:focus {
+                color: #000 !important;
+            }
+        }
+
+        /* Make header transparent only on index page */
+        body:not(.inner-page) header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: transparent !important;
+        }
+
+        body:not(.inner-page) .top-navigation {
+            background: transparent !important;
+        }
+
+        body:not(.inner-page) #menu-top-menu>li>a {
+            color: white !important;
+        }
+
+        body:not(.inner-page) #menu-top-menu>li>a:hover {
+            opacity: 0.8;
+        }
+
+        /* 
+        body:not(.inner-page) .menu-item-has-children .sub-menu {
+            background: rgba(0, 0, 0, 0.8) !important;
+        } */
+
+        body:not(.inner-page) .menu-item-has-children .sub-menu option {
+            background: transparent !important;
+            color: white !important;
+        }
+
+        body:not(.inner-page) .menu-item-has-children .sub-menu option:hover {
+            background: rgba(255, 255, 255, 0.1) !important;
+        }
+
+        /* Adjust the SKYLINE section to account for fixed header */
+        .skyline-section {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background: url('./images/34.jpg') no-repeat center center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            /* Changed from flex-end to center */
+            justify-content: center;
+            overflow: hidden;
+            margin-top: 0;
+        }
+
+        .skyline-text {
+            font-size: 8vw;
+            font-weight: 700;
+            color: white;
+            letter-spacing: 1vw;
+            text-transform: uppercase;
+            white-space: nowrap;
+            opacity: 0.9;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        .mobile-logo {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .skyline-text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                letter-spacing: normal;
+                padding: 0 20px;
+                height: 100%;
+                color: white;
+            }
+
+            .mobile-logo {
+                display: block;
+                width: 120px;
+                height: 120px;
+                background: url('./images/logo/logo.png') no-repeat center center;
+                background-size: contain;
+                margin-bottom: 30px;
+            }
+
+            .skyline-text .ceylon {
+                font-size: 15vw;
+                margin-bottom: 10px;
+                color: white;
+            }
+
+            .skyline-text .jay {
+                font-size: 18vw;
+                color: white;
+            }
+        }
+
+        .skyline-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4));
+        }
+
+        /* Header transition styles */
+        body:not(.inner-page) header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: transparent;
+            transition: all 0.3s ease;
+        }
+
+        body:not(.inner-page) .top-navigation {
+            background: transparent;
+            transition: all 0.3s ease;
+        }
+
+        body:not(.inner-page) #menu-top-menu>li>a {
+            color: white;
+            transition: all 0.3s ease;
+        }
+
+        /* Scrolled state styles */
+        body:not(.inner-page) header.scrolled {
+            background: white !important;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        body:not(.inner-page) .top-navigation.scrolled {
+            background: white !important;
+        }
+
+        body:not(.inner-page) #menu-top-menu>li>a.scrolled {
+            color: #333 !important;
+        }
+
+        body:not(.inner-page) .menu-item-has-children .arrow.scrolled {
+            color: #333 !important;
+        }
+
+        /* Mobile Tours Dropdown Styles */
+        @media (max-width: 768px) {
+            .menu-item-has-children {
+                position: relative;
+            }
+
+            .menu-item-has-children>a {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 15px;
+                background-color: transparent;
+                color: white;
+                width: 100%;
+                border: none;
+            }
+
+            .menu-item-has-children .arrow {
+                font-size: 12px;
+                transition: transform 0.3s ease;
+            }
+
+            .menu-item-has-children .sub-menu {
+                display: none;
+                width: 100%;
+                background-color: rgba(255, 255, 255, 0.95) !important;
+                border-radius: 8px;
+                padding: 5px !important;
+                margin-top: 5px;
+            }
+
+            .menu-item-has-children .sub-menu option {
+                display: block;
+                padding: 12px 15px !important;
+                color: #333 !important;
+                font-size: 14px;
+                border-radius: 4px;
+                margin: 2px 0;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+
+            .menu-item-has-children .sub-menu option:hover {
+                background-color: rgba(0, 0, 0, 0.05) !important;
+            }
+
+            /* Active state for dropdown */
+            .menu-item-has-children.active .arrow {
+                transform: rotate(180deg);
+            }
+
+            .menu-item-has-children.active .sub-menu {
+                display: block;
+            }
+        }
     </style>
 
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;700&display=swap" rel="stylesheet">
@@ -113,7 +321,7 @@
     </script>
     <link rel="canonical" href="http://localhost/sl/" />
     <script type="text/javascript">
-    var ajaxurl = "http://localhost/sl/wp-admin/admin-ajax.php";
+        var ajaxurl = "http://localhost/sl/wp-admin/admin-ajax.php";
     </script>
 </head>
 
@@ -136,31 +344,36 @@
 
 
     <?php
-        include "./header.php";
-    
+    include "./header.php";
+
     ?>
     <!-- / header -->
+
+    <div class="skyline-section">
+        <div class="skyline-overlay"></div>
+        <div class="skyline-text">
+            <div class="mobile-logo"></div>
+            <span class="ceylon" style="font-family: 'Ubuntu', sans-serif; font-weight: 700;">Tambapanni</span>
+            <span class="jay" style="font-family: 'Ubuntu', sans-serif; font-weight: 700;">361°</span>
+        </div>
+    </div>
+
     <div class="banner homepage">
         <div class="banner-inner-wrapper">
             <div class="left-wrapper">
                 <div class="dynamic-overlay" style="opacity: 0.7;"></div>
                 <!-- this should be change from backend-->
                 <div class="left-image mobile">
-                    <div class="left-img-mobile" style="background-image:url('./images/34.jpg')"></div>
-                    <div class="left-img-ipad" style="background-image:url('./images/34.jpg')">
+
+                    <div class="left-img-ipad" style="background-image:url('./images/galle.webp')">
                     </div>
 
-                    <div class="mobile-logo">
-                        <a href="http://localhost/sl" id="branding-white" title="Truly Sri Lanka"
-                            style="display: inline-block; padding: 15px 0;">
-                            <img src="./images/logo3.png" alt="Truly Sri Lanka" title="Truly Sri Lanka">
-                        </a>
-                    </div>
+
 
                 </div>
                 <div class="left-image desktop">
                     <a href="./images/5.jpg" data-fancybox>
-                        <div class="left-img" id="slider" style="background-image:url('./images/5.jpg')"></div>
+                        <div class="left-img" id="slider" style="background-image:url('./images/galle.webp')"></div>
                     </a>
                 </div>
 
@@ -173,93 +386,86 @@
                 <div class="right-top-inner-wrapper">
                     <div class="home-intro">
 
-                        <div class="line-title">Truly</div>
+                        <div class="line-title"> </div>
                         <h1 class="main-title">
                             <span>Your Tropical</span> Island Escape
                         </h1>
                         <div class="description">
-                            <p>Sri Lanka – a name conjures up images of golden sandy beaches, sunset cocktails, palm
-                                trees, wildlife and rolling hills. This is what tropical dreams are made of. Travel to
-                                Sri Lanka and explore a land of hope wonder and mystery,
-                                all who step on to shores of this island are soon enthralled with the beautiful
-                                landscapes, friendly people and the magic all around.</p>
-                            <p>It’s quite easy to fall in love with this country of contrasts and surprises. From quite
-                                scenic corners to the lush green tea estates and historical monuments, each destination
-                                on this island will make you feel like you have
-                                arrived in a whole new world.</p>
+                            <p>Sri Lanka is located in southern Asia, off the southeast coast of India. Sri Lanka is an island that is bordered by the Gulf of Mannar to the west, the Bay of Bengal to the east, the Indian Ocean to the south, and Palk Bay to the northwest.</p>
+                            <p>Taprobana is undoubtedly present-day Sri Lanka when referring to the map. The map indicates names such as 'Rhogandani' in the south (known as Rohana in ancient times) and Anuragrami in the northwest referring to Anuradha Grama as it was known in ancient times.</p>
                         </div>
                     </div>
                     <!-- /.home-intro -->
                     <style>
-                    .right-image-wrapper {
-                        width: 300px;
-                        height: 200px;
-                        overflow: hidden;
-                        position: relative;
-                        border: 2px solid #ddd;
-                    }
+                        .right-image-wrapper {
+                            width: 300px;
+                            height: 200px;
+                            overflow: hidden;
+                            position: relative;
+                            border: 2px solid #ddd;
+                        }
 
-                    .right-image {
-                        width: 100%;
-                        height: 100%;
-                        background-size: cover;
-                        background-position: center;
-                        position: absolute;
-                        top: 0;
-                        right: -100%;
-                        /* Start outside the wrapper */
-                        animation: slideOneByOne 20s infinite ease-in-out;
-                    }
-
-                    /* Keyframes for right-side sliding */
-                    @keyframes slideOneByOne {
-                        0% {
+                        .right-image {
+                            width: 100%;
+                            height: 100%;
+                            background-size: cover;
+                            background-position: center;
+                            position: absolute;
+                            top: 0;
                             right: -100%;
-                            opacity: 0;
+                            /* Start outside the wrapper */
+                            animation: slideOneByOne 20s infinite ease-in-out;
                         }
 
-                        10% {
-                            right: 0%;
-                            opacity: 1;
+                        /* Keyframes for right-side sliding */
+                        @keyframes slideOneByOne {
+                            0% {
+                                right: -100%;
+                                opacity: 0;
+                            }
+
+                            10% {
+                                right: 0%;
+                                opacity: 1;
+                            }
+
+                            /* Slide in */
+                            40% {
+                                right: 0%;
+                                opacity: 1;
+                            }
+
+                            /* Stay visible */
+                            50% {
+                                right: 100%;
+                                opacity: 0;
+                            }
+
+                            /* Slide out */
+                            100% {
+                                right: 100%;
+                                opacity: 0;
+                            }
+
+                            /* Keep out of view */
                         }
 
-                        /* Slide in */
-                        40% {
-                            right: 0%;
-                            opacity: 1;
+                        /* Assign different delay for each image */
+                        .right-image:nth-child(1) {
+                            animation-delay: 0s;
                         }
 
-                        /* Stay visible */
-                        50% {
-                            right: 100%;
-                            opacity: 0;
+                        .right-image:nth-child(2) {
+                            animation-delay: 5s;
                         }
 
-                        /* Slide out */
-                        100% {
-                            right: 100%;
-                            opacity: 0;
+                        .right-image:nth-child(3) {
+                            animation-delay: 10s;
                         }
 
-                        /* Keep out of view */
-                    }
-
-                    /* Assign different delay for each image */
-                    .right-image:nth-child(1) {
-                        animation-delay: 0s;
-                    }
-
-                    .right-image:nth-child(2) {
-                        animation-delay: 5s;
-                    }
-
-                    .right-image:nth-child(3) {
-                        animation-delay: 10s;
-                    }
-
-                    .right-image:nth-child(4) {
-                        animation-delay: 15s;
-                    }
+                        .right-image:nth-child(4) {
+                            animation-delay: 15s;
+                        }
                     </style>
 
 
@@ -274,33 +480,8 @@
 
                 <div class="right-bottom-inner-wrapper">
                     <div class="component-why-truly-srilanka">
-                        <h2 class="main-title"> <span>Why </span> Sri Lanka?</h2>
-                        <div class="items-wrapper">
-                            <div class="item">
-                                <div class="icon"
-                                    style="background-image:url(https://djpadb6zmchmi.cloudfront.net/2020/05/lonely-planet.svg)">
-                                </div>
-                                <div class="text">
-                                    Lonely Planet’s No.1 holiday destination 2019 </div>
-                            </div>
-                            <!-- /.item -->
-                            <div class="item">
-                                <div class="icon"
-                                    style="background-image:url(https://djpadb6zmchmi.cloudfront.net/2020/05/tropical-land.svg)">
-                                </div>
-                                <div class="text">
-                                    A glorious <br /> tropical island </div>
-                            </div>
-                            <!-- /.item -->
-                            <div class="item">
-                                <div class="icon"
-                                    style="background-image:url(https://djpadb6zmchmi.cloudfront.net/2020/05/island-hospitality.svg)">
-                                </div>
-                                <div class="text">
-                                    Island hospitality <br /> at its finest </div>
-                            </div>
-                            <!-- /.item -->
-                        </div>
+
+                        <p>See the country's stunning landscapes, endless white sand beaches and sprawling national parks from a trustworthy local's perspective Follow a newly hatched sea turtle's journey to the sea on the interminable white-sand beaches of the south coast, get a soaring "eagle"-eye view of the spectacular ancient Sigiriya rock fortress, watch the world's most giant elephants travel in their home in the sprawling Udawalawe National Park, and witness doves waking with the vibrant sunrise over Colombo. Sri Lanka is more than just a destination, it's a feeling. So feel it as much as you can.</p>
                         <!-- /.items-wrapper -->
                     </div>
                 </div>
@@ -317,23 +498,17 @@
                     <div class="section-home-authentic-experience-inner">
                         <div class="left-wrapper">
                             <div class="section-title-wrapper">
-                                <div class="line-title"> TRULY </div>
+                                <div class="line-title"> </div>
                                 <h2 class="home-section-title">Authentic Experiences</h2>
                             </div>
                             <div class="description-link-wrapper">
                                 <div class="description-wrapper">
-                                    Arriving at this dream destination will leave you with excitement knowing that there
-                                    are experiences ahead that are unique just to Sri Lanka. Right from your very first
-                                    step on the island, you’ll be greeted with a gust of inviting warm weather. Once
-                                    you’ve
-                                    hit the road, the sense of adventure will fill the air. You’ll be able to experience
-                                    the call of the wild, the gentle caress of nature and indulge yourself in Ceylon’s
-                                    rich culture. </div>
+                                    Ayubowan. Warmly welcome to Sri Lanka. Now you have entered the magical land of the Indian Ocean also known as the pearl of the Indian ocean. Fabulous nature, glorious historical places, and delicious Sri Lankan cuisine make your travel remarkable forever. So let us start to explore Ceylon the fulfill your traveling enthusiasm. </div>
 
 
                                 <div class="link-wrapper">
-                                    <a href="http://localhost/sl/srilanka-attractions.html"
-                                        class="link-type-1"> Find Out More</a>
+                                    <a href="./destination.php"
+                                        class="link-type-1"> Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -360,18 +535,18 @@
                             </div>
                             <!-- /.home-authentic-experience-slider-wrapper -->
                             <div class="description-link-wrapper">
-                                <div class="description-wrapper">
+                                <!-- <div class="description-wrapper">
                                     Arriving at this dream destination will leave you with excitement knowing that there
                                     are experiences ahead that are unique just to Sri Lanka. Right from your very first
-                                    step on the island, you’ll be greeted with a gust of inviting warm weather. Once
-                                    you’ve
-                                    hit the road, the sense of adventure will fill the air. You’ll be able to experience
-                                    the call of the wild, the gentle caress of nature and indulge yourself in Ceylon’s
-                                    rich culture. </div>
+                                    step on the island, you'll be greeted with a gust of inviting warm weather. Once
+                                    you've
+                                    hit the road, the sense of adventure will fill the air. You'll be able to experience
+                                    the call of the wild, the gentle caress of nature and indulge yourself in Ceylon's
+                                    rich culture. </div> -->
 
 
                                 <div class="link-wrapper">
-                                    <a href="http://localhost/sl/srilanka-attractions.html"
+                                    <a href="http://localhost/sl/destination.php"
                                         class="link-type-1"> Find Out More</a>
                                 </div>
                             </div>
@@ -387,13 +562,13 @@
                         <div class="col-md-8 col-xl-11 mx-auto">
                             <div class="section-inner-wrapper">
 
-                                <?php 
-							     include './location.php';
-							  ?>
+                                <?php
+                                include './location.php';
+                                ?>
                                 <!-- /.left-wrapper -->
                                 <div class="right-wrapper">
                                     <div class="section-title-wrapper">
-                                        <div class="line-title"> TRULY </div>
+                                        <div class="line-title"> </div>
                                         <h2 class="home-section-title">Diverse Explore</h2>
                                     </div>
                                     <!-- /.title -->
@@ -462,7 +637,7 @@
                                                                     malls, restaurants and various forms of urban
                                                                     entertainment that awaits the urban explorer. </div>
                                                                 <div class="link-wrapper">
-                                                                    <a href="#" class="link-type-1"> Find Out More</a>
+                                                                    <a href="./location/colombo.php" class="link-type-1"> View More</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -493,7 +668,7 @@
                                                         <!-- /.carousel-section -->
                                                         <div class="destination-detail-section">
                                                             <h3 class="destination-main-title"> Hikkaduwa </h3>
-                                                            <div class="destination-sub-title">The beach lover’s
+                                                            <div class="destination-sub-title">The beach lover's
                                                                 sanctuary</div>
                                                             <div class="description-link-wrapper">
                                                                 <div class="description-wrapper">
@@ -502,7 +677,7 @@
                                                                     beach lovers. Not to mention the clear waters and
                                                                     coral reefs waiting to be explored. </div>
                                                                 <div class="link-wrapper">
-                                                                    <a href="#" class="link-type-1"> Find Out More</a>
+                                                                    <a href="./location/hikkaduwa.php" class="link-type-1"> View More</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -542,7 +717,7 @@
                                                                     what the elegant city of Galle is all about. Find
                                                                     out more enticing appeals await you here! </div>
                                                                 <div class="link-wrapper">
-                                                                    <a href="#" class="link-type-1"> Find Out More</a>
+                                                                    <a href="./location/galle.php" class="link-type-1"> View More</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -583,7 +758,7 @@
                                                                     attractions and the beauty of nature to indulge in.
                                                                 </div>
                                                                 <div class="link-wrapper">
-                                                                    <a href="#" class="link-type-1"> Find Out More</a>
+                                                                    <a href="./location/kandy.php" class="link-type-1"> View More</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -623,7 +798,7 @@
                                                                     are centuries old where the essence of Buddhism is a
                                                                     prominent part of life. </div>
                                                                 <div class="link-wrapper">
-                                                                    <a href="#" class="link-type-1"> Find Out More</a>
+                                                                    <a href="./location/anuradhapura.php" class="link-type-1"> View More</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -664,7 +839,7 @@
                                                                     Sigiriya is seasoned with a sense of wonder that is
                                                                     sure mesmerise its visitors. </div>
                                                                 <div class="link-wrapper">
-                                                                    <a href="#" class="link-type-1"> Find Out More</a>
+                                                                    <a href="./location/sigiraya.php" class="link-type-1"> View More</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -709,7 +884,7 @@
                                                                     Even the gentle giants of the ocean seem to love the
                                                                     warm waters of Trincomalee. </div>
                                                                 <div class="link-wrapper">
-                                                                    <a href="#" class="link-type-1"> Find Out More</a>
+                                                                    <a href="./location/trincomalee.php" class="link-type-1"> View More</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -734,31 +909,13 @@
                 </div>
             </div>
             <div class="section-home-things-to-explore">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-10 col-xl-11 mx-auto">
-                            <div class="section-inner-wrapper top-title-wrapper">
-                                <div class="section-title-wrapper">
-                                    <div class="line-title"> TRULY </div>
-                                    <h2 class="home-section-title"> Wonderful Things to Explore in Sri Lanka </h2>
-                                </div>
-                                <div class="description-link-wrapper">
-                                    <div class="link-wrapper">
-                                        <a href="#" class="link-type-1">
-                                            Find Out More</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /.section-inner-wrapper -->
-                        </div>
-                    </div>
-                </div>
+
 
                 <div class="grid-items-section">
 
                     <div class="grid-inner-wrapper mobile">
                         <div class="item">
-                            <a href="http://localhost/sl/things-to-do/beaches.html"
+                            <a href="https://en.wikipedia.org/wiki/Northern_Province,_Sri_Lanka"
                                 class="link-item lazyBackground" data-imgsrc="./images/27.jpg">
                                 <div class="link-inner">
                                     <div class="line"></div>
@@ -768,7 +925,7 @@
                         </div>
 
                         <div class="item">
-                            <a href="http://localhost/sl/things-to-do/wildlife-and-safari.html"
+                            <a href="https://en.wikipedia.org/wiki/North_Western_Province,_Sri_Lanka"
                                 class="link-item lazyBackground" data-imgsrc="./images/28.webp">
                                 <div class="link-inner">
                                     <div class="line"></div>
@@ -778,7 +935,7 @@
                         </div>
 
                         <div class="item">
-                            <a href="http://localhost/sl/things-to-do/sightseeing-and-tours.html"
+                            <a href="https://simple.wikipedia.org/wiki/Uva_Province"
                                 class="link-item lazyBackground" data-imgsrc="./images/33.webp">
                                 <div class="link-inner">
                                     <div class="line"></div>
@@ -788,7 +945,7 @@
                         </div>
 
                         <div class="item">
-                            <a href="" class="link-item lazyBackground" data-imgsrc="./images/30.jpg">
+                            <a href="https://simple.wikipedia.org/wiki/Central_Province,_Sri_Lanka" class="link-item lazyBackground" data-imgsrc="./images/30.jpg">
                                 <div class="link-inner">
                                     <div class="line"></div>
                                     <div class="text"> Central Province </div>
@@ -797,7 +954,7 @@
                         </div>
 
                         <div class="item">
-                            <a href="http://localhost/sl/things-to-do/nightlife.html"
+                            <a href="https://simple.wikipedia.org/wiki/Sabaragamuwa_Province"
                                 class="link-item lazyBackground" data-imgsrc="./images/31.jpg">
                                 <div class="link-inner">
                                     <div class="line"></div>
@@ -807,7 +964,7 @@
                         </div>
 
                         <div class="item">
-                            <a href="http://localhost/sl/things-to-do/heritage-and-culture.html"
+                            <a href="https://simple.wikipedia.org/wiki/Eastern_Province,_Sri_Lanka"
                                 class="link-item lazyBackground" data-imgsrc="./images/32.jpg">
                                 <div class="link-inner">
                                     <div class="line"></div>
@@ -817,7 +974,7 @@
                         </div>
 
                         <div class="item">
-                            <a href="http://localhost/sl/things-to-do/shopping.html"
+                            <a href="https://simple.wikipedia.org/wiki/North_Central_Province,_Sri_Lanka"
                                 class="link-item lazyBackground" data-imgsrc="./images/35.webp">
                                 <div class="link-inner">
                                     <div class="line"></div>
@@ -827,7 +984,7 @@
                         </div>
 
                         <div class="item">
-                            <a href="http://localhost/sl/things-to-do/adventure-and-sports.html"
+                            <a href="https://simple.wikipedia.org/wiki/Southern_Province,_Sri_Lanka"
                                 class="link-item lazyBackground" data-imgsrc="./images/34.jpg">
                                 <div class="link-inner">
                                     <div class="line"></div>
@@ -842,7 +999,7 @@
                         <div class="left-section">
                             <div class="top">
                                 <div class="item">
-                                    <a href="http://localhost/sl/things-to-do/beaches.html"
+                                    <a href="https://en.wikipedia.org/wiki/Northern_Province,_Sri_Lanka"
                                         class="link-item lazyBackground" data-imgsrc="./images/27.jpg">
                                         <div class="link-inner">
                                             <div class="line"></div>
@@ -855,7 +1012,7 @@
 
                             <div class="bottom">
                                 <div class="item">
-                                    <a href="https://djpadb6zmchmi.cloudfront.net/2020/05/nightlife.jpg"
+                                    <a href="https://en.wikipedia.org/wiki/North_Western_Province,_Sri_Lanka"
                                         class="link-item lazyBackground" data-imgsrc="./images/28.webp">
                                         <div class="link-inner">
                                             <div class="line"></div>
@@ -871,7 +1028,7 @@
                         <div class="middle-section">
                             <div class="top">
                                 <div class="item">
-                                    <a href="http://localhost/sl/things-to-do/wildlife-and-safari.html"
+                                    <a href="https://simple.wikipedia.org/wiki/Uva_Province"
                                         class="link-item lazyBackground" data-imgsrc="./images/33.webp">
                                         <div class="link-inner">
                                             <div class="line"></div>
@@ -883,7 +1040,7 @@
                             <!-- / .top -->
                             <div class="bottom">
                                 <div class="item">
-                                    <a href="http://localhost/sl/things-to-do/heritage-and-culture.html"
+                                    <a href="https://simple.wikipedia.org/wiki/Central_Province,_Sri_Lanka"
                                         class="link-item lazyBackground" data-imgsrc="./images/30.jpg">
                                         <div class="link-inner">
                                             <div class="line"></div>
@@ -893,7 +1050,7 @@
                                 </div>
 
                                 <div class="item">
-                                    <a href="http://localhost/sl/things-to-do/shopping.html"
+                                    <a href="https://simple.wikipedia.org/wiki/Sabaragamuwa_Province"
                                         class="link-item lazyBackground" data-imgsrc="./images/31.jpg">
                                         <div class="link-inner">
                                             <div class="line"></div>
@@ -908,7 +1065,7 @@
                         <div class="right-section">
                             <div class="top">
                                 <div class="item">
-                                    <a href="http://localhost/sl/things-to-do/sightseeing-and-tours.html"
+                                    <a href="https://simple.wikipedia.org/wiki/Eastern_Province,_Sri_Lanka"
                                         class="link-item lazyBackground" data-imgsrc="./images/32.jpg">
                                         <div class="link-inner">
                                             <div class="line"></div>
@@ -918,7 +1075,7 @@
                                 </div>
 
                                 <div class="item">
-                                    <a href="" class="link-item lazyBackground" data-imgsrc="./images/35.webp">
+                                    <a href="https://simple.wikipedia.org/wiki/North_Central_Province,_Sri_Lanka" class="link-item lazyBackground" data-imgsrc="./images/35.webp">
                                         <div class="link-inner">
                                             <div class="line"></div>
                                             <div class="text"> North Central Province </div>
@@ -933,14 +1090,14 @@
                                     <div class="no-flex">
                                         <div class="section-inner-wrapper inner-title-wrapper">
                                             <div class="section-title-wrapper">
-                                                <div class="line-title"> TRULY </div>
+                                                <div class="line-title"> </div>
                                                 <h2 class="home-section-title"> Wonderful Things to Explore in Sri Lanka
                                                 </h2>
                                             </div>
                                             <div class="description-link-wrapper">
                                                 <div class="link-wrapper">
-                                                    <a href="http://localhost/sl/things-to-do.html"
-                                                        class="link-type-1"> Find Out More</a>
+                                                    <a href="./destination.php"
+                                                        class="link-type-1"> View More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -950,7 +1107,7 @@
                             <!-- / .middle -->
                             <div class="bottom">
                                 <div class="item">
-                                    <a href="http://localhost/sl/things-to-do/adventure-and-sports.html"
+                                    <a href="https://simple.wikipedia.org/wiki/Southern_Province,_Sri_Lanka"
                                         class="link-item lazyBackground" data-imgsrc="./images/34.jpg">
                                         <div class="link-inner">
                                             <div class="line"></div>
@@ -976,18 +1133,15 @@
                             <div class="section-inner-wrapper">
                                 <div class="no-flex top-title-section">
                                     <div class="section-title-wrapper">
-                                        <div class="line-title"> TRULY </div>
+                                        <div class="line-title"> </div>
                                         <h2 class="home-section-title"> Inviting Escapes </h2>
                                     </div>
                                     <div class="description-link-wrapper">
                                         <div class="description-wrapper">
-                                            Since you’ve often heard travellers speak of Sri Lanka’s warm hospitality,
-                                            it’s time to experience it yourself! Hotels and resorts are in all the best
-                                            nooks and cranny of the island and offer some the best amenities for the
-                                            ultimate holiday stay. </div>
+                                            Since travelers often rave about Sri Lanka's warm hospitality, why not experience it for yourself? With hotels and resorts nestled in the island's most scenic spots, you'll enjoy top-tier amenities for the perfect holiday getaway. </div>
                                         <!-- max char - 150-->
                                         <div class="link-wrapper">
-                                            <a href="http://localhost/sl/hotels.html" class="link-type-1">
+                                            <a href="http://localhost/sl/accommodation/" class="link-type-1">
                                                 View All </a>
                                         </div>
                                     </div>
@@ -996,24 +1150,20 @@
                                     <div class="left-wrapper">
                                         <div class="items-row">
                                             <div class="item">
-                                                <a href="https://vouchers.themeresorts.com/product-category/aliya_resorts/"
+                                                <a href="https://www.oakrayhotels.com/"
                                                     target="_blank">
                                                     <div class="image">
-                                                        <div class="price-lable">Starting From
-                                                            <div class="price"> LKR 16200</div>
-                                                        </div>
-                                                        <img src="https://djpadb6zmchmi.cloudfront.net/2020/06/Aliya-feat-home-2.jpg"
-                                                            alt="" class="img-fluid">
+
+                                                        <img src="./images/accommodation/ma1.png"
+                                                            alt="" class="img-fluid imma">
                                                     </div>
                                                     <div class="content">
                                                         <!-- 65 max character -->
-                                                        <div class="title"> Aliya Resort & Spa Sigiriya </div>
+                                                        <div class="title"> Marino Beach Colombo </div>
                                                         <!-- 112 max character  -->
-                                                        <div class="text"> Nestled among the lush greenery of rolling
-                                                            fields, decades-old indigenous trees and chena growth of the
-                                                            dry zone of the Central Province</div>
+                                                        <div class="text"> Marino Beach is a popular luxury hotel and beachfront destination located in Colombo, Sri Lanka. It's known for its upscale facilities, stunning ocean views, and convenient location near the city's attractions. The hotel offers amenities like a rooftop pool, spa, and modern rooms with panoramic views of the Indian Ocean. Marino Beach is a great spot to relax by the beach or enjoy dining and entertainment options. It’s also near other key places in Colombo, like Galle Face Green, making it a nice spot for both relaxation and exploration.</div>
 
-                                                        <div class="city">Sigiriya</div>
+                                                        <div class="city">Colombo</div>
                                                     </div>
                                                 </a>
                                             </div>
@@ -1027,16 +1177,49 @@
                                             <div class="item">
                                                 <a href="https://www.heritancehotels.com/kandalama/" target="_blank">
                                                     <div class="image">
-                                                        <img src="https://djpadb6zmchmi.cloudfront.net/2020/06/Heritance-Kanfdalama-900x1030-1.jpg"
-                                                            alt="" class="img-fluid">
+                                                        <img src="./images/accommodation/191.png"
+                                                            alt="" class="img-fluid imma">
                                                     </div>
                                                     <div class="content">
                                                         <!-- 65 max character -->
                                                         <div class="title"> Heritance Kandalama </div>
                                                         <!-- 112 max character  -->
-                                                        <div class="text"> A tranquil retreat perched on hills,
-                                                            Heritance Kandalama offers panoramic views of the Sigiriya
-                                                            Rocks, boasting a spectacular architecture</div>
+
+
+                                                        <div class="city">Dambulla</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <!-- /.item -->
+                                            <div class="item">
+                                                <a
+                                                    href="https://www.cinnamonhotels.com/cinnamon-red-colombo">
+                                                    <div class="image">
+                                                        <img src="./images/accommodation/cr1.jpg"
+                                                            alt="" class="img-fluid imma">
+                                                    </div>
+                                                    <div class="content">
+                                                        <!-- 65 max character -->
+                                                        <div class="title"> Cenoman Red Colombo</div>
+                                                        <!-- 112 max character  -->
+
+
+                                                        <div class="city">Colombo</div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <!-- /.item -->
+                                            <div class="item">
+                                                <a href="https://www.brownshotels.com/hotelsigiriya/"
+                                                    target="_blank">
+                                                    <div class="image">
+                                                        <img src="./images/accommodation/hs1.png"
+                                                            alt="" class="img-fluid imma">
+                                                    </div>
+                                                    <div class="content">
+                                                        <!-- 65 max character -->
+                                                        <div class="title">Hotel Sigiriya</div>
+                                                        <!-- 112 max character  -->
 
                                                         <div class="city">Sigiriya</div>
                                                     </div>
@@ -1044,107 +1227,55 @@
                                             </div>
                                             <!-- /.item -->
                                             <div class="item">
-                                                <a
-                                                    href="http://localhost/sl/destinations/ella/hotels/98-acres-resort-spa.html">
+                                                <a href="https://web.facebook.com/PeacockreachhotelSrilanka/?_rdc=1&_rdr#" target="_blank">
                                                     <div class="image">
-                                                        <img src="https://djpadb6zmchmi.cloudfront.net/2020/05/98-acres.jpg"
-                                                            alt="" class="img-fluid">
+                                                        <img src="./images/accommodation/pr1.png"
+                                                            alt="" class="img-fluid imma">
                                                     </div>
                                                     <div class="content">
                                                         <!-- 65 max character -->
-                                                        <div class="title"> 98 ACRES RESORT & SPA </div>
+                                                        <div class="title"> Peacock Reach Hotel </div>
                                                         <!-- 112 max character  -->
-                                                        <div class="text"> Set amidst stunning mountains, 98 Acres
-                                                            Resort & Spa is one of the most distinct Ella hotels
-                                                            offering a charming getaway full of romance & adventure.
-                                                        </div>
 
-                                                        <div class="city">Ella</div>
+
+
+                                                        <div class="city">Mahasenpura</div>
                                                     </div>
                                                 </a>
                                             </div>
                                             <!-- /.item -->
                                             <div class="item">
-                                                <a href="https://www.cinnamonhotels.com/cinnamonbentotabeach"
+                                                <a href="https://www.bluewavearugambay.com/"
                                                     target="_blank">
                                                     <div class="image">
-                                                        <img src="https://djpadb6zmchmi.cloudfront.net/2020/06/bentota-cinnamon-800-800-sdfg.jpg"
-                                                            alt="" class="img-fluid">
+
+                                                        <img src="./images/accommodation/bl1.png"
+                                                            alt="" class="img-fluid imma">
                                                     </div>
                                                     <div class="content">
                                                         <!-- 65 max character -->
-                                                        <div class="title"> Cinnamon Bentota Beach </div>
+                                                        <div class="title"> The Blue Wave Hotel And Spa </div>
                                                         <!-- 112 max character  -->
-                                                        <div class="text"> Nestled along the mesmerizing Indian Ocean
-                                                            and overlooking stretches of palm-fringed beaches and a
-                                                            winding river, Cinnamon Bentota Beach is the ultimate
-                                                            tropical getaway</div>
 
-                                                        <div class="city">Bentota</div>
+
+                                                        <div class="city">Arugam Bay</div>
                                                     </div>
                                                 </a>
                                             </div>
                                             <!-- /.item -->
                                             <div class="item">
-                                                <a href="https://www.amayaresorts.com/amayahills/" target="_blank">
+                                                <a href="https://www.cinnamonhotels.com/cinnamon-lakeside-colombo" target="_blank">
                                                     <div class="image">
-                                                        <img src="https://djpadb6zmchmi.cloudfront.net/2020/06/Amaya-Hills-900-1030-feat.jpg"
-                                                            alt="" class="img-fluid">
+                                                        <img src="./images/accommodation/cl1.png"
+                                                            alt="" class="img-fluid imma">
                                                     </div>
                                                     <div class="content">
                                                         <!-- 65 max character -->
-                                                        <div class="title"> Amaya Hills Kandy Sri Lanka </div>
+                                                        <div class="title"> Cinnamon Lake Colombo </div>
                                                         <!-- 112 max character  -->
-                                                        <div class="text"> Setting the benchmark for stunning hotels in
-                                                            Kandy with breathtaking, verdant views of the surrounding
-                                                            mountains and the city. <br />
-                                                        </div>
 
-                                                        <div class="city">Kandy</div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <!-- /.item -->
-                                            <div class="item">
-                                                <a href="https://vouchers.revealthecollection.com/product-category/fifty-lighthouse-street/"
-                                                    target="_blank">
-                                                    <div class="image">
-                                                        <div class="price-lable">Starting From
-                                                            <div class="price"> LKR 9900</div>
-                                                        </div>
-                                                        <img src="https://djpadb6zmchmi.cloudfront.net/2020/05/lighthouse.jpg"
-                                                            alt="" class="img-fluid">
-                                                    </div>
-                                                    <div class="content">
-                                                        <!-- 65 max character -->
-                                                        <div class="title"> Fifty Lighthouse Street </div>
-                                                        <!-- 112 max character  -->
-                                                        <div class="text"> Nestled within the historic ramparts of an
-                                                            old, living fort, stroll through cobblestone streets and
-                                                            find Fifty Lighthouse set in a refurbished, colonial
-                                                            building on Lighthouse Street.<br />
-                                                        </div>
 
-                                                        <div class="city">Galle</div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <!-- /.item -->
-                                            <div class="item">
-                                                <a href="https://www.ugaescapes.com/ulagalla/" target="_blank">
-                                                    <div class="image">
-                                                        <img src="https://djpadb6zmchmi.cloudfront.net/2020/06/ulagalla-feat-1.jpg"
-                                                            alt="" class="img-fluid">
-                                                    </div>
-                                                    <div class="content">
-                                                        <!-- 65 max character -->
-                                                        <div class="title"> Ulagalla by Uga Escapes </div>
-                                                        <!-- 112 max character  -->
-                                                        <div class="text"> A boutique hotel with a touch of traditional
-                                                            elegance and aristocracy offers you a unique experience of
-                                                            luxury amidst a natural and uninhibited environment.</div>
-
-                                                        <div class="city">Anuradhapura</div>
+                                                        <div class="city">Colombo</div>
                                                     </div>
                                                 </a>
                                             </div>
@@ -1160,109 +1291,22 @@
                     </div>
                 </div>
             </div>
-            <div class="section-home-offers">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-10 col-xl-11 mx-auto">
-                            <div class="section-inner-wrapper">
-                                <div class="no-flex top-title-section">
-                                    <div class="section-title-wrapper">
-                                        <div class="line-title"> Book Now </div>
-                                        <h2 class="home-section-title"> Stay Later </h2>
-                                    </div>
-                                    <div class="description-link-wrapper">
-                                        <div class="description-wrapper">
-                                            On the lookout for the best holiday deals in Sri Lanka? Have a look at what
-                                            some of the star hotels on the Island are offering on their special offer
-                                            packages for this holiday season. </div>
-                                        <!-- max char - 210-->
-                                        <div class="link-wrapper">
-                                            <a href="http://localhost/sl/special-offers.html"
-                                                class="link-type-1"> View All </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item-list-wrapper">
 
-                                    <div class="items-row">
-                                        <div class="item">
-                                            <a href="https://vouchers.serendibleisure.com/" target="_blank">
-                                                <div class="image">
-                                                    <img src="https://djpadb6zmchmi.cloudfront.net/2020/06/serendib-vouchers.jpg"
-                                                        alt="" class="img-fluid">
-                                                </div>
-                                                <div class="content">
-                                                    <!-- 65 max character -->
-                                                    <div class="title">
-                                                        Serendib Leisure </div>
-                                                    <!-- 70 max character  -->
-                                                    <div class="text">Exclusive deals and benefits<br /> with Serendib
-                                                        Leisure and Reveal the Collection</div>
-                                                    <span class="link-type-1" title="Book Now">Book Now</span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <!-- /.item -->
-                                        <div class="item">
-                                            <a href="https://vouchers.ekhohotels.com/" target="_blank">
-                                                <div class="image">
-                                                    <img src="https://djpadb6zmchmi.cloudfront.net/2020/06/echo-hotels.jpg"
-                                                        alt="" class="img-fluid">
-                                                </div>
-                                                <div class="content">
-                                                    <!-- 65 max character -->
-                                                    <div class="title">
-                                                        EKHO Hotels </div>
-                                                    <!-- 70 max character  -->
-                                                    <div class="text">Discover EKHO Hotels & Resorts. Reserve Now, Stay
-                                                        Later</div>
-                                                    <span class="link-type-1" title="Book Now">Book Now</span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <!-- /.item -->
-                                        <div class="item">
-                                            <a href="https://vouchers.asialeisure.lk" target="_blank">
-                                                <div class="image">
-                                                    <img src="https://djpadb6zmchmi.cloudfront.net/2020/06/asia-leisure.jpg"
-                                                        alt="" class="img-fluid">
-                                                </div>
-                                                <div class="content">
-                                                    <!-- 65 max character -->
-                                                    <div class="title">
-                                                        Asia Leisure Hotels </div>
-                                                    <!-- 70 max character  -->
-                                                    <div class="text">Book Early and<br /> Double Your Value</div>
-                                                    <span class="link-type-1" title="Book Now">Book Now</span>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <!-- /.item -->
-                                    </div>
-                                </div>
-                                <!-- /.item-list-wrapper -->
-                            </div>
-                            <!-- /.section-inner-wrapper -->
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="section-home-tropical-paradise">
                 <div class="mobile-image lazyBackground"
-                    data-imgsrc="https://djpadb6zmchmi.cloudfront.net/2020/05/tropical-paradise-mob.jpg">
+                    data-imgsrc="./images/6.jpg">
                     <div class="image-inner-content">
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-md-10 col-xl-11 mx-auto">
                                     <div class="section-inner-wrapper">
                                         <div class="section-title-wrapper">
-                                            <div class="line-title"> TRULY </div>
-                                            <h2 class="home-section-title"> A Tropical Paradise</h2>
+                                            <div class="line-title"> </div>
+                                            <h2 class="home-section-title">where nature, culture, and warmth embrace as one</h2>
                                         </div>
                                         <div class="description-link-wrapper">
                                             <div class="description-wrapper">
-                                                A paradise in its true sense, The emerald isle is a destination that can
-                                                satisfy the intense thirst for adventure! </div>
+                                            Sri Lanka – the Pearl of the Indian Ocean, where golden beaches meet lush green hills, ancient temples whisper stories of the past, and the aroma of Ceylon tea fills the air, inviting you to a land of timeless beauty and warm hospitality.</div>
                                         </div>
                                     </div>
                                 </div>
@@ -1271,20 +1315,18 @@
                     </div>
                 </div>
                 <div class="desktop-image lazyBackground"
-                    data-imgsrc="https://djpadb6zmchmi.cloudfront.net/2020/05/tropical-paradise.jpg">
+                    data-imgsrc="./images/6.jpg">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-md-10 col-xl-11 mx-auto">
                                 <div class="section-inner-wrapper">
                                     <div class="section-title-wrapper">
-                                        <div class="line-title"> TRULY </div>
-                                        <h2 class="home-section-title"> A Tropical Paradise</h2>
+                                        <div class="line-title"> </div>
+                                        <h2 class="home-section-title">where nature, culture, and warmth embrace as one</h2>
                                     </div>
                                     <div class="description-link-wrapper">
                                         <div class="description-wrapper">
-                                            A paradise in its true sense, The emerald isle is a destination that can
-                                            satisfy the intense thirst for adventure! </div>
-                                    </div>
+                                        Sri Lanka – the Pearl of the Indian Ocean, where golden beaches meet lush green hills, ancient temples whisper stories of the past, and the aroma of Ceylon tea fills the air, inviting you to a land of timeless beauty and warm hospitality.  </div>
                                 </div>
                             </div>
                         </div>
@@ -1300,8 +1342,8 @@
                         <div class="content-wrapper">
                             <div class="no-flex">
                                 <div class="section-title-wrapper">
-                                    <div class="line-title"> FAQ </div>
-                                    <h2 class="home-section-title">FAQs About Sri Lanka</h2>
+                                    <div class="line-title text-c"> FAQ </div>
+                                    <h2 class="home-section-title text-c">FAQs About Sri Lanka</h2>
                                 </div>
                                 <div class="description-link-wrapper">
                                     <div class="description-wrapper">
@@ -1323,7 +1365,7 @@
                                         <div class="panel-heading" role="tab" id="heading-0">
                                             <a role="button" data-toggle="collapse" href="#collapse-0"
                                                 aria-expanded="true" aria-controls="collapse-0">
-                                                <h6 itemprop="name">What is the local transportation like in Sri Lanka?
+                                                <h6 itemprop="name">Where is Sri Lanka located?
                                                 </h6>
                                                 <span class="accordian-icon"> <svg width="15" height="9"
                                                         aria-hidden="true" class="icon-plus">
@@ -1340,9 +1382,7 @@
                                             itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"
                                             data-parent="#faq-accordion" role="tabpanel" aria-labelledby="heading-0">
                                             <div class="panel-body" itemprop="text">
-                                                <p>Sri Lanka offers various modes of transportation, including tuk-tuks,
-                                                    buses, trains, and private taxis. For a more authentic experience,
-                                                    you can also take a scenic train ride through the hill country.</p>
+                                                <p>Sri Lanka is an island nation in South Asia, located in the Indian Ocean, southeast of India.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1352,7 +1392,7 @@
                                         <div class="panel-heading" role="tab" id="heading-1">
                                             <a role="button" data-toggle="collapse" href="#collapse-1"
                                                 aria-expanded="false" aria-controls="collapse-0">
-                                                <h6 itemprop="name">Are there any restrictions on clothing in Sri Lanka?
+                                                <h6 itemprop="name">What is the best time to visit Sri Lanka?
                                                 </h6>
                                                 <span class="accordian-icon"> <svg width="15" height="9"
                                                         aria-hidden="true" class="icon-plus">
@@ -1369,9 +1409,7 @@
                                             itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"
                                             data-parent="#faq-accordion" role="tabpanel" aria-labelledby="heading-1">
                                             <div class="panel-body" itemprop="text">
-                                                <p>While Sri Lanka is generally relaxed about dress code, modest
-                                                    clothing is recommended, especially when visiting temples and
-                                                    religious sites. It’s respectful to cover your shoulders and knees.
+                                                <p>Sri Lanka has two monsoon seasons. The best time to visit the west and south coasts is December to April, while the best time to visit the east coast is May to September.
                                                 </p>
                                             </div>
                                         </div>
@@ -1382,7 +1420,7 @@
                                         <div class="panel-heading" role="tab" id="heading-2">
                                             <a role="button" data-toggle="collapse" href="#collapse-2"
                                                 aria-expanded="false" aria-controls="collapse-0">
-                                                <h6 itemprop="name">What are some popular festivals in Sri Lanka?</h6>
+                                                <h6 itemprop="name">What is the official language spoken in Sri Lanka?</h6>
                                                 <span class="accordian-icon"> <svg width="15" height="9"
                                                         aria-hidden="true" class="icon-plus">
                                                         <use xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -1398,10 +1436,7 @@
                                             itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"
                                             data-parent="#faq-accordion" role="tabpanel" aria-labelledby="heading-2">
                                             <div class="panel-body" itemprop="text">
-                                                <p>Some of the most popular festivals include Sinhala and Tamil New Year
-                                                    (April), Vesak (celebrating Buddha’s birth, enlightenment, and
-                                                    death, in May), and the Kandy Esala Perahera (a grand procession in
-                                                    August)</p>
+                                                <p>Sinhala and Tamil are the official languages, but English is widely spoken in tourist areas.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1411,8 +1446,7 @@
                                         <div class="panel-heading" role="tab" id="heading-3">
                                             <a role="button" data-toggle="collapse" href="#collapse-3"
                                                 aria-expanded="false" aria-controls="collapse-0">
-                                                <h6 itemprop="name">Is it easy to get around Sri Lanka as a solo
-                                                    traveler?</h6>
+                                                <h6 itemprop="name">Is Sri Lanka good for wildlife lovers?</h6>
                                                 <span class="accordian-icon"> <svg width="15" height="9"
                                                         aria-hidden="true" class="icon-plus">
                                                         <use xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -1428,10 +1462,7 @@
                                             itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"
                                             data-parent="#faq-accordion" role="tabpanel" aria-labelledby="heading-3">
                                             <div class="panel-body" itemprop="text">
-                                                <p>Yes, Sri Lanka is very welcoming to solo travelers, and many tourists
-                                                    enjoy traveling around the island alone. However, it’s advisable to
-                                                    take precautions and plan your transportation in advance for added
-                                                    safety.
+                                                <p>Absolutely! Sri Lanka is famous for safaris in Yala, Udawalawe, and Wilpattu National Parks, where you can see elephants, leopards, and diverse bird species.
 
                                                 </p>
                                             </div>
@@ -1443,8 +1474,7 @@
                                         <div class="panel-heading" role="tab" id="heading-4">
                                             <a role="button" data-toggle="collapse" href="#collapse-4"
                                                 aria-expanded="false" aria-controls="collapse-0">
-                                                <h6 itemprop="name">Are there any health precautions I should take
-                                                    before visiting Sri Lanka?</h6>
+                                                <h6 itemprop="name">Is Sri Lanka safe for tourists?</h6>
                                                 <span class="accordian-icon"> <svg width="15" height="9"
                                                         aria-hidden="true" class="icon-plus">
                                                         <use xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -1460,10 +1490,7 @@
                                             itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"
                                             data-parent="#faq-accordion" role="tabpanel" aria-labelledby="heading-4">
                                             <div class="panel-body" itemprop="text">
-                                                <p>It’s recommended to check with your doctor about any vaccinations you
-                                                    might need, such as hepatitis A, hepatitis B, and typhoid. You
-                                                    should also drink bottled or filtered water to avoid waterborne
-                                                    illnesses.</p>
+                                                <p>Yes, Sri Lanka is generally safe for tourists, but it’s always wise to take common precautions, such as avoiding isolated areas at night and safeguarding belongings.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1500,71 +1527,14 @@
                             <!-- /.faq-listing-wrapper -->
                         </div>
                         <!-- /content-wrapper -->
-                        <div class="image-wrapper lazyBackground" data-imgsrc="./images/36.jpg"> </div>
+                        <div class="image-wrapper lazyBackground" data-imgsrc="./images/36.avif"> </div>
                     </div>
                     <!-- /.bottom -->
                 </div>
                 <!-- /.section-inner-wrapper  -->
             </div>
             <!-- /.section-home-faq -->
-            <div class="section-home-instagram">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-10 col-xl-11 mx-auto">
-                            <div class="section-inner-wrapper">
-                                <div class="section-title-wrapper top">
-                                    <div class="line-title">
-                                        <span class="icon-instagram">
-                                            <svg class="icon svg-instagram">
-                                                <use xlink:href="#svg-icon-instagram"></use>
-                                            </svg>
-                                        </span>
-                                        <span class="line-title-text"> #TRULYSRILANKA </span>
-                                    </div>
-                                    <h2 class="home-section-title"> Instagram Feed </h2>
-                                </div>
-                                <!-- /.section-title-wrapper -->
 
-                                <div class="instagram-list-items-wrapper">
-                                    <div class="item"><a href="https://www.instagram.com/p/Ctb4PcIh33b/"
-                                            style="background-image:url(https://scontent-sin2-1.cdninstagram.com/v/t39.30808-6/354026340_639639561541272_149031322903558046_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=18de74&_nc_ohc=ylOfTocRZfEQ7kNvgGNYJ5N&_nc_zt=23&_nc_ht=scontent-sin2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A4Pba9INCsVAXoXWEelq8D5&oh=00_AYDq26Y_2CHvp4mCsg2ukpAt7FUAYt6qy2w_D43dKa-VRQ&oe=67565AF3)"
-                                            target="_blank"></a></div>
-                                    <div class="item"><a href="https://www.instagram.com/p/CKS_LSIBKkI/"
-                                            style="background-image:url(https://scontent-sin6-3.cdninstagram.com/v/t51.29350-15/140238554_3811504375607324_5027411583211223890_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=18de74&_nc_ohc=QPsWK_DbCbkQ7kNvgEu2-6g&_nc_zt=23&_nc_ht=scontent-sin6-3.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A4Pba9INCsVAXoXWEelq8D5&oh=00_AYBIwiEwZFh7VhQbpzthk3T9hLWH5_iWyOuZ7jIx6JyPpA&oe=67566DBF)"
-                                            target="_blank"></a></div>
-                                    <div class="item"><a href="https://www.instagram.com/p/CJMM3PlhZyF/"
-                                            style="background-image:url(https://scontent-sin11-1.cdninstagram.com/v/t51.29350-15/132198152_2812804678983190_734768573559248984_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=18de74&_nc_ohc=G7qNikGjcA8Q7kNvgHRKdUa&_nc_zt=23&_nc_ht=scontent-sin11-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A4Pba9INCsVAXoXWEelq8D5&oh=00_AYCTzu3FGuUJOO2OPfnuKMHEOZIx7bB0E8rGhNy89amfcQ&oe=675671B4)"
-                                            target="_blank"></a></div>
-                                    <div class="item"><a href="https://www.instagram.com/p/CGxWnLShPWl/"
-                                            style="background-image:url(https://scontent-sin6-2.cdninstagram.com/v/t51.29350-15/122431030_189706125930732_7829555835365353424_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=18de74&_nc_ohc=9kyMoYq7sQcQ7kNvgFdYo1W&_nc_zt=23&_nc_ht=scontent-sin6-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A4Pba9INCsVAXoXWEelq8D5&oh=00_AYDty453w7nsVeEqDtePeH3B15r1ZV-bFbZvEdghYTymMw&oe=67568D5F)"
-                                            target="_blank"></a></div>
-                                    <div class="item"><a href="https://www.instagram.com/p/CGxWaA-h2lg/"
-                                            style="background-image:url(https://scontent-sin2-1.cdninstagram.com/v/t51.29350-15/122734547_174652930949822_4139636089252144152_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=18de74&_nc_ohc=1NbFy8Zw_2AQ7kNvgGtMI8P&_nc_zt=23&_nc_ht=scontent-sin2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A4Pba9INCsVAXoXWEelq8D5&oh=00_AYBpk4kqYCpFDRSyC63K4aLpGaJLijChQBA-CQ60cipSSA&oe=675675E2)"
-                                            target="_blank"></a></div>
-                                    <div class="item"><a href="https://www.instagram.com/p/CGgt5RaBoT-/"
-                                            style="background-image:url(https://scontent-sin2-1.cdninstagram.com/v/t51.29350-15/121669279_2438490959787529_5467030394254386456_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=18de74&_nc_ohc=ThYc7xGYxE4Q7kNvgE4-NkL&_nc_zt=23&_nc_ht=scontent-sin2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A4Pba9INCsVAXoXWEelq8D5&oh=00_AYBU6168kFxP7LrciF4VVvVZkjXrzGzHMtJa7snW0zOnnQ&oe=67565BAA)"
-                                            target="_blank"></a></div>
-                                    <div class="item"><a href="https://www.instagram.com/p/CFjYp9-hNCL/"
-                                            style="background-image:url(https://scontent-sin6-2.cdninstagram.com/v/t51.29350-15/120084945_336645104337827_2031688341472663263_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=18de74&_nc_ohc=jXDshsQxQi4Q7kNvgE63rWZ&_nc_zt=23&_nc_ht=scontent-sin6-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A4Pba9INCsVAXoXWEelq8D5&oh=00_AYBbkbYkP9yLDsI6Pz-czeEnyp0S1t0VIIKcWXkfmlOprg&oe=67567835)"
-                                            target="_blank"></a></div>
-                                    <div class="item"><a href="https://www.instagram.com/p/CFg5qmPhOgv/"
-                                            style="background-image:url(https://scontent-sin2-1.cdninstagram.com/v/t51.29350-15/119996746_1617740775077945_4230555059127742093_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=18de74&_nc_ohc=N5qgOLYaExcQ7kNvgHDxmF4&_nc_zt=23&_nc_ht=scontent-sin2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A4Pba9INCsVAXoXWEelq8D5&oh=00_AYAhG37mZA91oth2cODVndSIn-ppXQ7Tmjr-q1I6gK6gjg&oe=6756684C)"
-                                            target="_blank"></a></div>
-                                    <div class="item"><a href="https://www.instagram.com/p/CE6FqzuBm3S/"
-                                            style="background-image:url(https://scontent-sin11-1.cdninstagram.com/v/t51.29350-15/118702172_203868264416263_8843557864300577974_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=18de74&_nc_ohc=MV8X8Unw8bUQ7kNvgHTI_Ii&_nc_zt=23&_nc_ht=scontent-sin11-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A4Pba9INCsVAXoXWEelq8D5&oh=00_AYCXp2OePXWK99QF3fums1wEczvOkRIgeSRIhb6EDX9-zw&oe=67566F39)"
-                                            target="_blank"></a></div>
-                                    <div class="item"><a href="https://www.instagram.com/p/CE6E9q7hTof/"
-                                            style="background-image:url(https://scontent-sin11-1.cdninstagram.com/v/t51.29350-15/118940396_3513144478738160_7974940776254426322_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=18de74&_nc_ohc=n-eC0HoSDmQQ7kNvgFdXJPW&_nc_zt=23&_nc_ht=scontent-sin11-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=A4Pba9INCsVAXoXWEelq8D5&oh=00_AYB96BXQIeqn0Ri5vYEYnvITdckFdB26uTL7Vq7P86Mkfw&oe=67568853)"
-                                            target="_blank"></a></div>
-                                </div>
-                                <!-- /.instagram-list-items-wrapper -->
-
-                            </div>
-                            <!-- /.section-inner-wrapper -->
-                        </div>
-                    </div>
-                </div>
-            </div>
             <!-- /.section-home-instagram -->
 
 
@@ -1575,8 +1545,8 @@
     <script type='text/javascript' src='http://localhost/sl/wp-includes/js/wp-embed.min.js?ver=5.4.9'>
     </script>
     <?php
-        include "./footer.php";
-    
+    include "./footer.php";
+
     ?>
     <!-- model share -->
 
@@ -1584,14 +1554,14 @@
     <script defer src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
 
     <script>
-    //set view height
-    var vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty('--vh', vh + 'px');
-
-    window.addEventListener('resize', function() {
+        //set view height
         var vh = window.innerHeight * 0.01;
         document.documentElement.style.setProperty('--vh', vh + 'px');
-    }, true);
+
+        window.addEventListener('resize', function() {
+            var vh = window.innerHeight * 0.01;
+            document.documentElement.style.setProperty('--vh', vh + 'px');
+        }, true);
     </script>
 
     <script defer
@@ -1610,7 +1580,7 @@
     <script defer src="http://localhost/sl/wp-content/themes/reTlsTheme/assets/js/functions.min.js">
     </script>
 
-    <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
         <symbol id="icon-blogger" viewBox="0 0 14.41 14.16">
             <path
                 d="M640.3 271.617a4.535 4.535 0 0 0 4.565-4.465l.029-3.614-.042-.195-.124-.246-.2-.158c-.265-.2-1.6.014-1.969-.308a2.038 2.038 0 0 1-.376-1.212 3.472 3.472 0 0 0-.408-1.516 5.026 5.026 0 0 0-3.519-2.44h-3.2a4.53 4.53 0 0 0-4.561 4.473v5.216a4.525 4.525 0 0 0 4.561 4.465h5.244zm-5.183-10.5h2.531a.854.854 0 1 1 0 1.708h-2.531a.854.854 0 1 1 .001-1.706zm-.872 5.967a.859.859 0 0 1 .872-.847h5.14a.858.858 0 0 1 .87.847.868.868 0 0 1-.87.854h-5.14a.869.869 0 0 1-.871-.852z"
@@ -1620,9 +1590,9 @@
         <symbol id="svg-icon-fb" viewBox="0 0 7.88 14.91">
             <defs>
                 <style>
-                .fb-1 {
-                    fill-rule: evenodd
-                }
+                    .fb-1 {
+                        fill-rule: evenodd
+                    }
                 </style>
             </defs>
             <path id="fb-1"
@@ -1640,9 +1610,9 @@
         <symbol id="svg-icon-twitter" viewBox="0 0 17.5 14.91">
             <defs>
                 <style>
-                .twitter-1 {
-                    fill-rule: evenodd
-                }
+                    .twitter-1 {
+                        fill-rule: evenodd
+                    }
                 </style>
             </defs>
             <path id="twitter-1"
@@ -1656,9 +1626,9 @@
         <symbol id="svg-icon-youtube" viewBox="0 0 13.13 15.78">
             <defs>
                 <style>
-                .youtube-1 {
-                    fill-rule: evenodd
-                }
+                    .youtube-1 {
+                        fill-rule: evenodd
+                    }
                 </style>
             </defs>
             <path id="youtube-1"
@@ -1678,10 +1648,10 @@
         <symbol id="svg-icon-instafeed" viewBox="0 0 78 78">
             <defs>
                 <style>
-                .cls-instafeed-2 {
-                    fill: #d8d3d3;
-                    fill-rule: evenodd;
-                }
+                    .cls-instafeed-2 {
+                        fill: #d8d3d3;
+                        fill-rule: evenodd;
+                    }
                 </style>
             </defs>
             <path id="instafeed-icon.svg" class="cls-instafeed-2"
@@ -1691,9 +1661,9 @@
         <symbol id="svg-arrow-right" viewBox="0 0 12 22">
             <defs>
                 <style>
-                .arrow-right {
-                    fill-rule: evenodd;
-                }
+                    .arrow-right {
+                        fill-rule: evenodd;
+                    }
                 </style>
             </defs>
             <path id="svg-arrow-right.svg" class="arrow-right"
@@ -1709,9 +1679,9 @@
         <symbol id="svg-arrow-left" viewBox="0 0 12 22">
             <defs>
                 <style>
-                .arrow-left {
-                    fill-rule: evenodd;
-                }
+                    .arrow-left {
+                        fill-rule: evenodd;
+                    }
                 </style>
             </defs>
             <path id="svg-arrow-left.svg" class="arrow-left"
@@ -1727,10 +1697,10 @@
         <symbol id="svg-icon-chat" viewBox="0 0 17.16 17">
             <defs>
                 <style>
-                .chat {
-                    fill: #fff;
-                    fill-rule: evenodd
-                }
+                    .chat {
+                        fill: #fff;
+                        fill-rule: evenodd
+                    }
                 </style>
             </defs>
             <path id="bubble_icon"
@@ -1740,10 +1710,10 @@
         <symbol id="svg-icon-heart" viewBox="0 0 18.88 17">
             <defs>
                 <style>
-                .heart {
-                    fill: #fff;
-                    fill-rule: evenodd
-                }
+                    .heart {
+                        fill: #fff;
+                        fill-rule: evenodd
+                    }
                 </style>
             </defs>
             <path id="Forma_3" d="M843.423 959.994c-18.388-10.1-5.089-22.651 0-14.2 5.09-8.451 18.39 4.106 0 14.2z"
@@ -1789,13 +1759,13 @@
         <symbol id="svg-email" viewBox="0 0 50 50">
             <defs>
                 <style>
-                .cls-1 {
-                    fill: none
-                }
+                    .cls-1 {
+                        fill: none
+                    }
 
-                .cls-2 {
-                    clip-path: url(#clip-path)
-                }
+                    .cls-2 {
+                        clip-path: url(#clip-path)
+                    }
                 </style>
                 <clipPath id="clip-path">
                     <path d="M0 0h50v50H0z" class="cls-1" />
@@ -1815,17 +1785,17 @@
         <symbol id="tropical-land" viewBox="0 0 50 50">
             <defs>
                 <style>
-                .cls-1 {
-                    fill: none
-                }
+                    .cls-1 {
+                        fill: none
+                    }
 
-                .cls-2 {
-                    clip-path: url(#clip-path)
-                }
+                    .cls-2 {
+                        clip-path: url(#clip-path)
+                    }
 
-                .cls-3 {
-                    fill: #b5985a
-                }
+                    .cls-3 {
+                        fill: #b5985a
+                    }
                 </style>
                 <clipPath id="clip-path">
                     <path d="M0 0h50v50H0z" class="cls-1" />
@@ -1846,17 +1816,17 @@
         <symbol id="island-hospitality" viewBox="0 0 50 50">
             <defs>
                 <style>
-                .cls-1 {
-                    fill: none
-                }
+                    .cls-1 {
+                        fill: none
+                    }
 
-                .cls-2 {
-                    clip-path: url(#clip-path)
-                }
+                    .cls-2 {
+                        clip-path: url(#clip-path)
+                    }
 
-                .cls-3 {
-                    fill: #b5985a
-                }
+                    .cls-3 {
+                        fill: #b5985a
+                    }
                 </style>
                 <clipPath id="clip-path">
                     <path d="M0 0h50v50H0z" class="cls-1" />
@@ -1874,17 +1844,17 @@
         <symbol id="lonely-planet" viewBox="0 0 50 50">
             <defs>
                 <style>
-                .cls-1 {
-                    fill: none
-                }
+                    .cls-1 {
+                        fill: none
+                    }
 
-                .cls-2 {
-                    clip-path: url(#clip-path)
-                }
+                    .cls-2 {
+                        clip-path: url(#clip-path)
+                    }
 
-                .cls-3 {
-                    fill: #b5985a
-                }
+                    .cls-3 {
+                        fill: #b5985a
+                    }
                 </style>
                 <clipPath id="clip-path">
                     <path d="M0 0h50v50H0z" class="cls-1" />
@@ -1907,22 +1877,45 @@
 
     </svg>
     <script>
-    $(document).ready(function() {
-        $('form[id="ftr_newsltr"]').validate({
-            rules: {
-                param_email: {
-                    required: true,
-                    email: true,
+        $(document).ready(function() {
+            $('form[id="ftr_newsltr"]').validate({
+                rules: {
+                    param_email: {
+                        required: true,
+                        email: true,
+                    },
                 },
-            },
-            messages: {
-                param_email: 'Enter a valid email',
-            },
-            submitHandler: function(form) {
-                form.submit();
-            }
+                messages: {
+                    param_email: 'Enter a valid email',
+                },
+                submitHandler: function(form) {
+                    form.submit();
+                }
+            });
         });
-    });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const header = document.querySelector('header');
+            const topNav = document.querySelector('.top-navigation');
+            const menuItems = document.querySelectorAll('#menu-top-menu > li > a');
+            const arrows = document.querySelectorAll('.menu-item-has-children .arrow');
+
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) {
+                    header.classList.add('scrolled');
+                    topNav.classList.add('scrolled');
+                    menuItems.forEach(item => item.classList.add('scrolled'));
+                    arrows.forEach(arrow => arrow.classList.add('scrolled'));
+                } else {
+                    header.classList.remove('scrolled');
+                    topNav.classList.remove('scrolled');
+                    menuItems.forEach(item => item.classList.remove('scrolled'));
+                    arrows.forEach(arrow => arrow.classList.remove('scrolled'));
+                }
+            });
+        });
     </script>
 
 </body>
